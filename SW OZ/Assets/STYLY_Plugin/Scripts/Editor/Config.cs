@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
@@ -7,9 +8,9 @@ namespace STYLY.Uploader
 {
     public class Config
     {
-        public static readonly string CurrentVersion = "1.8.0";
+        public static readonly string CurrentVersion = "2.0.0";
 
-        public static readonly string[] UNITY_VERSIONS = {"2019.3", "2019.4"};
+        public static readonly string[] UNITY_VERSIONS = {"2019.3", "2019.4", "2022.3"};
 
         /// <summary>
         /// STYLYアセット対象プラットフォームリスト
@@ -51,6 +52,39 @@ namespace STYLY.Uploader
             ".unity"
         };
 
+        /// <summary>
+        /// 指定パスのファイルがSTYLYアセットに変換可能な拡張子かどうか？
+        /// </summary>
+        /// <param name="assetPath"></param>
+        /// <returns></returns>
+        public static bool HasAcceptableExtension(string assetPath)
+        {
+            return Array.IndexOf(Config.AcceptableExtentions, System.IO.Path.GetExtension(assetPath)) >= 0;
+        }
+
+        /// <summary>
+        /// モデルデータとして扱う拡張子一覧
+        /// Unity上でprefabのように見えるが実際にはImporterでインポートされたもので編集できない。
+        /// Cameraのdisable化に影響がある
+        /// </summary>
+        public static readonly string[] ModelDataExtentions =
+        {
+            ".obj",
+            ".fbx",
+            ".skp",
+        };
+
+        /// <summary>
+        /// 指定パスのファイルが3Dモデルに該当する拡張子かどうか？
+        /// Unity上でprefabのように見えるが実際にはImporterでインポートされたもので編集できない。
+        /// </summary>
+        /// <param name="assetPath"></param>
+        /// <returns></returns>
+        public static bool HasModelDataExtension(string assetPath)
+        {
+            return Array.IndexOf(Config.ModelDataExtentions, System.IO.Path.GetExtension(assetPath)) >= 0;
+        }
+       
         //禁止タグ
         public static readonly string[] ProhibitedTags =
         {

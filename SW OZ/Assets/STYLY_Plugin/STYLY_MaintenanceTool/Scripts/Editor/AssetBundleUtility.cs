@@ -61,7 +61,8 @@ namespace STYLY.MaintenanceTool.Utility
             {
 
                 switchResult = EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.WebGL, BuildTarget.WebGL);
-                PlayerSettings.SetUseDefaultGraphicsAPIs(BuildTarget.WebGL, true);
+                PlayerSettings.SetUseDefaultGraphicsAPIs(BuildTarget.WebGL, false);
+                PlayerSettings.SetGraphicsAPIs(BuildTarget.WebGL, new []{ UnityEngine.Rendering.GraphicsDeviceType.OpenGLES2, UnityEngine.Rendering.GraphicsDeviceType.OpenGLES3});
             }
             else if (platform == RuntimePlatform.WSAPlayerX86)
             {

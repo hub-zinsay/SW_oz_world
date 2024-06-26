@@ -237,7 +237,7 @@ namespace STYLY.Uploader
             }
 
             //もしSTYLYアセット対応拡張子ではなかったらエラー出して終了
-            if (Array.IndexOf(Config.AcceptableExtentions, System.IO.Path.GetExtension(assetPath)) < 0)
+            if (!Config.HasAcceptableExtension(assetPath))
             {
                 Debug.Log("Unsupported format ");
                 this.error = new Error("Unsupported format " + System.IO.Path.GetExtension(assetPath));
@@ -852,8 +852,8 @@ namespace STYLY.Uploader
 
                 switchResult = EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.WebGL, BuildTarget.WebGL);
                 //PlayerSettings.colorSpace = ColorSpace.Gamma;
-                PlayerSettings.SetUseDefaultGraphicsAPIs(BuildTarget.WebGL, true);
-                // web gl 1.0, web gl 2.0 がUnityEngine.Rendering.GraphicsDeviceTypeにないからautoで設定している
+                PlayerSettings.SetUseDefaultGraphicsAPIs(BuildTarget.WebGL, false);
+                PlayerSettings.SetGraphicsAPIs(BuildTarget.WebGL, new []{ UnityEngine.Rendering.GraphicsDeviceType.OpenGLES2, UnityEngine.Rendering.GraphicsDeviceType.OpenGLES3});
             }
             else if (platform == RuntimePlatform.WSAPlayerX86)
             {

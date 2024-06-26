@@ -26,34 +26,64 @@ namespace STYLY.Uploader
             {
                 requirementSatisfied = false;
             }
+
             // http://answers.unity3d.com/questions/1324195/detect-if-build-target-is-installed.html
             var moduleManager = System.Type.GetType("UnityEditor.Modules.ModuleManager,UnityEditor.dll");
-            var isPlatformSupportLoaded = moduleManager.GetMethod("IsPlatformSupportLoaded", System.Reflection.BindingFlags.Static | System.Reflection.BindingFlags.NonPublic);
-            var getTargetStringFromBuildTarget = moduleManager.GetMethod("GetTargetStringFromBuildTarget", System.Reflection.BindingFlags.Static | System.Reflection.BindingFlags.NonPublic);
+            var isPlatformSupportLoaded = moduleManager.GetMethod("IsPlatformSupportLoaded",
+                System.Reflection.BindingFlags.Static | System.Reflection.BindingFlags.NonPublic);
+            var getTargetStringFromBuildTarget = moduleManager.GetMethod("GetTargetStringFromBuildTarget",
+                System.Reflection.BindingFlags.Static | System.Reflection.BindingFlags.NonPublic);
             GUIStyle platformStyle = new GUIStyle();
             GUIStyleState platformStyleState = new GUIStyleState();
             platformStyleState.textColor = Color.red;
             platformStyle.normal = platformStyleState;
-            if (!(bool)isPlatformSupportLoaded.Invoke(null, new object[] { (string)getTargetStringFromBuildTarget.Invoke(null, new object[] { BuildTarget.StandaloneWindows64 }) }))
+            if (!(bool)isPlatformSupportLoaded.Invoke(null,
+                    new object[]
+                    {
+                        (string)getTargetStringFromBuildTarget.Invoke(null,
+                            new object[] { BuildTarget.StandaloneWindows64 })
+                    }))
             {
                 requirementSatisfied = false;
             }
-            if (!(bool)isPlatformSupportLoaded.Invoke(null, new object[] { (string)getTargetStringFromBuildTarget.Invoke(null, new object[] { BuildTarget.Android }) }))
+
+            if (!(bool)isPlatformSupportLoaded.Invoke(null,
+                    new object[]
+                    {
+                        (string)getTargetStringFromBuildTarget.Invoke(null, new object[] { BuildTarget.Android })
+                    }))
             {
                 requirementSatisfied = false;
             }
-            if (!(bool)isPlatformSupportLoaded.Invoke(null, new object[] { (string)getTargetStringFromBuildTarget.Invoke(null, new object[] { BuildTarget.iOS }) }))
+
+            if (!(bool)isPlatformSupportLoaded.Invoke(null,
+                    new object[]
+                    {
+                        (string)getTargetStringFromBuildTarget.Invoke(null, new object[] { BuildTarget.iOS })
+                    }))
             {
                 requirementSatisfied = false;
             }
-            if (!(bool)isPlatformSupportLoaded.Invoke(null, new object[] { (string)getTargetStringFromBuildTarget.Invoke(null, new object[] { BuildTarget.StandaloneOSX }) }))
+
+            if (!(bool)isPlatformSupportLoaded.Invoke(null,
+                    new object[]
+                    {
+                        (string)getTargetStringFromBuildTarget.Invoke(null,
+                            new object[] { BuildTarget.StandaloneOSX })
+                    }))
             {
                 requirementSatisfied = false;
             }
-            if (!(bool)isPlatformSupportLoaded.Invoke(null, new object[] { (string)getTargetStringFromBuildTarget.Invoke(null, new object[] { BuildTarget.WebGL }) }))
+
+            if (!(bool)isPlatformSupportLoaded.Invoke(null,
+                    new object[]
+                    {
+                        (string)getTargetStringFromBuildTarget.Invoke(null, new object[] { BuildTarget.WebGL })
+                    }))
             {
                 requirementSatisfied = false;
             }
+
             if (requirementSatisfied == false)
             {
                 OpenSettings();
@@ -62,7 +92,9 @@ namespace STYLY.Uploader
 
 
         private static bool isUploading = false;
+
         public static bool IsUploading { get { return isUploading; } }
+
         //http://baba-s.hatenablog.com/entry/2014/05/13/213143
         /// <summary>
         /// 選択中のPrefabアセットをアセットバンドルとしてビルドしてアップロードする。
@@ -71,11 +103,12 @@ namespace STYLY.Uploader
         private static void BuildAndUpload()
         {
             bool isUpload = EditorUtility.DisplayDialog("Asset Upload",
-             "Are you sure you want to Upload to STYLY ?", "Upload", "Cancel");
+                "Are you sure you want to Upload to STYLY ?", "Upload", "Cancel");
             if (!isUpload)
             {
-              return;
+                return;
             }
+
             // アセットのアップローディング中であることを表すフラグ
             // SceneProcessorがビルド対象シーンに処理を施していいかどうか判断する基準となる
             isUploading = true;
@@ -95,54 +128,72 @@ namespace STYLY.Uploader
 
         private static void BuildAndUploadImplement()
         {
-            if (CheckSelectedObjectIsPrefab())
+            // 選択状態が妥当でなければダイアログを出して終了
+            if (!CheckSelectionCondition())
             {
-                bool isError = false;
-                // 選択中のPrefabアセットパス, アセット名を取得
-                var assetList = new List<UnityEngine.Object>();
-                assetList.AddRange(Selection.objects);
-                var unprocessedAssetList = new List<UnityEngine.Object>();
-                unprocessedAssetList.AddRange(Selection.objects);
-                string errorMessages = "";
+                return;
+            }
 
-                int count = 0;
-                int selectLength = Selection.objects.Length;
-                for (count = 0; count < selectLength; count++)
+            // 選択中のPrefabアセットパス, アセット名を取得
+            var assetList = new List<UnityEngine.Object>();
+            assetList.AddRange(Selection.objects);
+
+            var cameraComponentDisabler = new CameraComponentDisabler(new CameraComponentDisabler.EditorDialogService());
+            // アセットリスト内のCameraコンポーネントをチェックし、disableしたり警告を出したりする
+            if (!cameraComponentDisabler.CheckCameraComponentInAssets(assetList))
+            {
+                EditorUtility.DisplayDialog("STYLY Plugin", "Uploading aborted.", "OK");
+                return;
+            }
+            
+            // 個々のアセットをビルドし、アップロードする
+            BuildAndUploadAssets(assetList);
+        }
+
+        private static void BuildAndUploadAssets(List<UnityEngine.Object> assetObjects)
+        {
+            bool isError = false;
+            var unprocessedAssetList = new List<UnityEngine.Object>();
+            unprocessedAssetList.AddRange(assetObjects);
+            string errorMessages = "";
+
+            int count = 0;
+            int selectLength = assetObjects.Count;
+            for (count = 0; count < selectLength; count++)
+            {
+                var selectObject = assetObjects[count];
+                Converter converter = new Converter(selectObject);
+
+                if (!converter.BuildAsset() || converter.error != null)
                 {
-                    var selectObject = assetList[count];
-                    Converter converter = new Converter(selectObject);
-
-                    if (!converter.BuildAsset() || converter.error != null)
+                    isError = true;
+                    errorMessages += "Failed to upload object <" + selectObject.name + ">";
+                    if (converter.error != null)
                     {
-                        isError = true;
-                        errorMessages += "Failed to upload object <" + selectObject.name + ">";
-                        if (converter.error != null)
-                        {
-                            errorMessages += " : " + converter.error.message;
-                        }
-                        errorMessages += "\r\n";
+                        errorMessages += " : " + converter.error.message;
                     }
-                    else
-                    {
-                        Debug.Log(selectObject.name + " Upload Success!");
-                        unprocessedAssetList.Remove(selectObject);
-                    }
-                }
-
-                if (isError)
-                {
-                    // エラーが発生した場合、処理されていないオブジェクトを選択する。
-                    Selection.objects = unprocessedAssetList.ToArray();
-                    EditorUtility.ClearProgressBar();
-                    bool isOpen = EditorUtility.DisplayDialog("Asset Upload failed", errorMessages, "More infomation", "Close");
-                    if (isOpen) { Application.OpenURL(Config.UploadErrorUrl); }
+                    errorMessages += "\r\n";
                 }
                 else
                 {
-                    EditorUtility.ClearProgressBar();
-                    bool isOpen = EditorUtility.DisplayDialog("Asset Upload succeeded", "Upload succeeded.", "Launch STYLY studio", "Close");
-                    if (isOpen) { Application.OpenURL(Config.ListOfScenesUrl); }
+                    Debug.Log(selectObject.name + " Upload Success!");
+                    unprocessedAssetList.Remove(selectObject);
                 }
+            }
+
+            if (isError)
+            {
+                // エラーが発生した場合、処理されていないオブジェクトを選択する。
+                Selection.objects = unprocessedAssetList.ToArray();
+                EditorUtility.ClearProgressBar();
+                bool isOpen = EditorUtility.DisplayDialog("Asset Upload failed", errorMessages, "More infomation", "Close");
+                if (isOpen) { Application.OpenURL(Config.UploadErrorUrl); }
+            }
+            else
+            {
+                EditorUtility.ClearProgressBar();
+                bool isOpen = EditorUtility.DisplayDialog("Asset Upload succeeded", "Upload succeeded.", "Launch STYLY studio", "Close");
+                if (isOpen) { Application.OpenURL(Config.ListOfScenesUrl); }
             }
         }
 
@@ -152,7 +203,7 @@ namespace STYLY.Uploader
         [MenuItem(@"Assets/STYLY/Check File Size", false, 10001)]
         private static void CheckFileSize()
         {
-            if (CheckSelectedObjectIsPrefab())
+            if (CheckSelectionCondition())
             {
                 var asset = Selection.objects[0];
                 var assetPath = AssetDatabase.GetAssetPath(asset);
@@ -193,9 +244,13 @@ namespace STYLY.Uploader
             settings.Show();
         }
 
-        static bool CheckSelectedObjectIsPrefab()
+        /// <summary>
+        /// 選択状態が妥当かどうかをチェックし、妥当でなければダイアログを出す
+        /// </summary>
+        /// <returns>選択状態が問題ないかどうか</returns>
+        static bool CheckSelectionCondition()
         {
-            // check only one prefab selected
+            // check at least one prefab selected
             Error error = null;
             if (Selection.objects.Length == 0)
             {

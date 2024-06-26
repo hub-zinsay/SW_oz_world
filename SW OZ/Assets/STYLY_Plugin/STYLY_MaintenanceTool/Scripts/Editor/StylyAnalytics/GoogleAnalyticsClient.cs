@@ -67,7 +67,11 @@ namespace STYLY.Analytics
         /// <param name="url">URL</param>
         private void SendRequest(string url)
         {
+#if UNITY_2022_2_OR_NEWER
+            using (var webRequest = UnityWebRequest.PostWwwForm(url, ""))
+#else
             using (var webRequest = UnityWebRequest.Post(url, ""))
+#endif
             {
                 // デフォルトのUserAgentだとGoogleAnalyticsに拒絶されるため変更
                 webRequest.SetRequestHeader("User-Agent", "Unity " + Application.unityVersion);
