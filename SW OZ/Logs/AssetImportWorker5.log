@@ -1,0 +1,2009 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.24f1 (334eb2a0b267) revision 3362482'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ja' Physical Memory: 32611 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/Unity/SW_github/SW_OZ_ver2/SW OZ
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+56244
+Successfully changed project path to: D:/Unity/SW_github/SW_OZ_ver2/SW OZ
+D:/Unity/SW_github/SW_OZ_ver2/SW OZ
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [42744] Host "[IP] 192.168.11.2 [Port] 0 [Flags] 2 [Guid] 2278633119 [EditorId] 2278633119 [Version] 1048832 [Id] WindowsEditor(7,M_F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [42744] Host "[IP] 192.168.11.2 [Port] 0 [Flags] 2 [Guid] 2278633119 [EditorId] 2278633119 [Version] 1048832 [Id] WindowsEditor(7,M_F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 13.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.24f1 (334eb2a0b267)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/SW_github/SW_OZ_ver2/SW OZ/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3598
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008777 seconds.
+- Loaded All Assemblies, in  0.242 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.197 seconds
+Domain Reload Profiling: 439ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (92ms)
+		LoadAssemblies (83ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (90ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (80ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (198ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (162ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (69ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.119 seconds
+Refreshing native plugins compatible for Editor in 33.84 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.392 seconds
+Domain Reload Profiling: 1507ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (983ms)
+		LoadAssemblies (959ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (70ms)
+			TypeCache.Refresh (59ms)
+				TypeCache.ScanAssembly (49ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (392ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (302ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2918 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (62.4 KB). Loaded Objects now: 3487.
+Memory consumption went from 126.6 MB to 126.6 MB.
+Total: 2.198100 ms (FindLiveObjects: 0.145600 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.917000 ms  DeleteObjects: 0.092900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36961.897126 seconds.
+  path: Assets/Fishing Docks and Boats/Textures/TX_SM_BoatFender_01a_DIF.TGA
+  artifactKey: Guid(349a3236ebbe00f4280a2a1a8cb473ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fishing Docks and Boats/Textures/TX_SM_BoatFender_01a_DIF.TGA using Guid(349a3236ebbe00f4280a2a1a8cb473ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd250af80db893851c4da0e80c92086e4') in 0.114939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UniGLTF/UniHumanoid/README.md
+  artifactKey: Guid(be513cfaa8530114d85f1e8e0f29708a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/UniHumanoid/README.md using Guid(be513cfaa8530114d85f1e8e0f29708a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '376756c39ba81008b2c421b93b474a36') in 0.017355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PlayMaker/Editor/PlayMakerGuidedTour.cs
+  artifactKey: Guid(404d317d82118d94487a5686d29dc0af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/PlayMakerGuidedTour.cs using Guid(404d317d82118d94487a5686d29dc0af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db79b2f28fe3fa879a9fd1bc35803554') in 0.016373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/3D/sion/primitives/torus1.fbx
+  artifactKey: Guid(c1bdc3f6c08189d4fb09c589de72036e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D/sion/primitives/torus1.fbx using Guid(c1bdc3f6c08189d4fb09c589de72036e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b0988a8cdc8f185249df4ee2e8ab49ca') in 0.037225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UniGLTF/DepthFirstScheduler/MonitorQueue.cs
+  artifactKey: Guid(5e968e04ff53e1c4a9a2869b7cf76055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/DepthFirstScheduler/MonitorQueue.cs using Guid(5e968e04ff53e1c4a9a2869b7cf76055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '012603465fab1d6be05e7f07fb8dcdf4') in 0.010901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Fishing Docks and Boats/Textures/TX_SM_BoatFender_01a_ORM.TGA
+  artifactKey: Guid(9058dd4bb4c07644e8de512b33172624) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fishing Docks and Boats/Textures/TX_SM_BoatFender_01a_ORM.TGA using Guid(9058dd4bb4c07644e8de512b33172624) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7287b0a1dec82cbee462a056419fb096') in 0.017866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Fishing Docks and Boats/Textures/TX_SM_Lifering_01a_ORM.TGA
+  artifactKey: Guid(c4ba7c3bb8867e54f9d9e5dd87a0b3ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fishing Docks and Boats/Textures/TX_SM_Lifering_01a_ORM.TGA using Guid(c4ba7c3bb8867e54f9d9e5dd87a0b3ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3af3177562069a62477517986cfa46ab') in 0.017425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PlayMaker/Editor/FsmTimelineWindow.cs
+  artifactKey: Guid(c3a5b63705b3fd249b805f2b0179954f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/FsmTimelineWindow.cs using Guid(c3a5b63705b3fd249b805f2b0179954f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bffd3ee34f8407b00f63b51a7703b7b8') in 0.012692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/BaseUpdateAction.cs
+  artifactKey: Guid(4bd46e7c97284a14bbf455bf29e74047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/BaseUpdateAction.cs using Guid(4bd46e7c97284a14bbf455bf29e74047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ed0f801fc6ff07d5232084c2b2a26f3') in 0.011144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/uploads_files_4263334_balloons.fbx
+  artifactKey: Guid(1a768112f9c993340b148ff0a47094f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/uploads_files_4263334_balloons.fbx using Guid(1a768112f9c993340b148ff0a47094f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b493aacdd46fb0a699c6e2ad9a75b91') in 0.070567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 130
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PlayMaker/Editor/FsmActionWindow.cs
+  artifactKey: Guid(2e19e42f9d21b1c49a3627a4101b8899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/FsmActionWindow.cs using Guid(2e19e42f9d21b1c49a3627a4101b8899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1382847fbc3b079c4a0d9787e3c1db33') in 0.014153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/3D/sion/primitives/2-9.fbx
+  artifactKey: Guid(f95bc7dabc7824a469a29b83d8f7df2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D/sion/primitives/2-9.fbx using Guid(f95bc7dabc7824a469a29b83d8f7df2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '396d325165508e9df47a252bb225cfb9') in 0.018276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UniGLTF/UniHumanoid/LICENSE.md
+  artifactKey: Guid(3ea85fd858590174f98cc2cd4c3e083f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/UniHumanoid/LICENSE.md using Guid(3ea85fd858590174f98cc2cd4c3e083f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e4f8a9baefe3cd23b11d9dbcee85b49') in 0.013833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3D/sion/primitives/3-13.fbx
+  artifactKey: Guid(c1735ab3be85fe94f91aa44766a65e82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D/sion/primitives/3-13.fbx using Guid(c1735ab3be85fe94f91aa44766a65e82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96ec36a400e47a60d698f2524bba872f') in 0.020940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fishing Docks and Boats/Textures/TX_SM_BoatFender_01a_NRM.TGA
+  artifactKey: Guid(7d126e75cc57e484b888f1b4a0e1eaf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fishing Docks and Boats/Textures/TX_SM_BoatFender_01a_NRM.TGA using Guid(7d126e75cc57e484b888f1b4a0e1eaf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'edef201551b7d7104903c608502e361e') in 0.016703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D/sion/primitives/2-11hosoi.fbx
+  artifactKey: Guid(39e967c3ce3b76d4382f9127b1861cee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D/sion/primitives/2-11hosoi.fbx using Guid(39e967c3ce3b76d4382f9127b1861cee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd99c5b37a7b51907fac22d295769709d') in 0.019565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.408205 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack/Prefabs/SharkV1.prefab
+  artifactKey: Guid(2fb93ff3c1250a74ca5f53a6bc162675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Alstra Infinite/Fish - PolyPack/Prefabs/SharkV1.prefab using Guid(2fb93ff3c1250a74ca5f53a6bc162675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a0fb8dcda00158465e4158393de8b80') in 0.019555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PlayMaker/Actions/Animator/GetAnimatorLayerWeight.cs
+  artifactKey: Guid(b217fe31f1ae848f9914c4fdbfbfdd01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Animator/GetAnimatorLayerWeight.cs using Guid(b217fe31f1ae848f9914c4fdbfbfdd01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '346c1f0ade56c2282cbfda389abc50ea') in 0.016866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PlayMaker/Actions/Array/ArraySort.cs
+  artifactKey: Guid(f95b31bdddbc8554080295de0a14d835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Array/ArraySort.cs using Guid(f95b31bdddbc8554080295de0a14d835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6786f7b8ea161bafaecdd8d35564dce8') in 0.015738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Fishing Docks and Boats/Scenes/Example/LightingData.asset
+  artifactKey: Guid(0450409e72b34c84baa819c4627396e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fishing Docks and Boats/Scenes/Example/LightingData.asset using Guid(0450409e72b34c84baa819c4627396e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e45c8f95bab32ee1cd6f69c0e3d99d81') in 0.038081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PlayMaker/Actions/Animator/AnimatorInterruptMatchTarget.cs
+  artifactKey: Guid(18376cdddd26341f7b809912db503610) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Animator/AnimatorInterruptMatchTarget.cs using Guid(18376cdddd26341f7b809912db503610) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd9bffdb7f01513ece48ae725f587c707') in 0.014558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/Animator/SetAnimatorLayerWeight.cs
+  artifactKey: Guid(1da53ccd0ab244a78be13e014adc7604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Animator/SetAnimatorLayerWeight.cs using Guid(1da53ccd0ab244a78be13e014adc7604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5eba4ec69dae2a326e602f1e6d9b86df') in 0.013409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PlayMaker/Actions/Array/ArrayGetRandom.cs
+  artifactKey: Guid(df9a5befe0eda4445a018b47d17c2a8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Array/ArrayGetRandom.cs using Guid(df9a5befe0eda4445a018b47d17c2a8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42cab600b28ef45f0808e6a17da60313') in 0.015113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/Array/GetFsmArrayItem.cs
+  artifactKey: Guid(380167957a9b2c64bb649bd015538943) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Array/GetFsmArrayItem.cs using Guid(380167957a9b2c64bb649bd015538943) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de6d0654816900456f32bc0e08c7e965') in 0.016383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/Array/ArrayRemove.cs
+  artifactKey: Guid(bbeca0cf9e44b86408a16de8ee5de52e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Array/ArrayRemove.cs using Guid(bbeca0cf9e44b86408a16de8ee5de52e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1d201ca8a8f3c522bb09eccb9000ec8') in 0.016761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/PlayMaker/Actions/Animator/GetAnimatorLayerName.cs
+  artifactKey: Guid(cdbcdbe70991c4b9f979da57c134c086) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Animator/GetAnimatorLayerName.cs using Guid(cdbcdbe70991c4b9f979da57c134c086) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a78f46cc5c7810f60ec1a786e5c3d87c') in 0.015406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/PlayMaker/Actions/AnimateVariables/CurveFsmAction.cs
+  artifactKey: Guid(fb99e798c2fbc254f96283acdd3cfcf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/AnimateVariables/CurveFsmAction.cs using Guid(fb99e798c2fbc254f96283acdd3cfcf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4178063b807fe5efdcb8551ddff072db') in 0.016323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PlayMaker/Actions/Array/ArrayResize.cs
+  artifactKey: Guid(68e5e954eb95b7b40b0e00f59b4d1986) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Array/ArrayResize.cs using Guid(68e5e954eb95b7b40b0e00f59b4d1986) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c299837ed66d7af36c55b772e7539936') in 0.015075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/Array/ArrayDeleteAt.cs
+  artifactKey: Guid(cc32998bfef18a347a974d0482c14ae9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Array/ArrayDeleteAt.cs using Guid(cc32998bfef18a347a974d0482c14ae9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c886e3cb86e70aa9c767a538e88c6c9') in 0.014563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Fishing Docks and Boats/Scenes/Example/Lightmap-5_comp_light.exr
+  artifactKey: Guid(02a37ae71040904429e6aa87abb21e67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fishing Docks and Boats/Scenes/Example/Lightmap-5_comp_light.exr using Guid(02a37ae71040904429e6aa87abb21e67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a3f83dc851cc6ee34afaeb921d94ff5') in 0.075046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/Animator/GetAnimatorCurrentTransitionInfoIsName.cs
+  artifactKey: Guid(c30469b50b14848858f52b7fe7107982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Animator/GetAnimatorCurrentTransitionInfoIsName.cs using Guid(c30469b50b14848858f52b7fe7107982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa2f4658b9aaee5185e568035db5f147') in 0.010697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PlayMaker/Actions/Animation/AnimationSettings.cs
+  artifactKey: Guid(6f1da104999d6b144b9e1d7cff19f8e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Animation/AnimationSettings.cs using Guid(6f1da104999d6b144b9e1d7cff19f8e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '780616aded835a12922a7bb4ebdf7cde') in 0.014072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/Animator/SetAnimatorPlayBackSpeed.cs
+  artifactKey: Guid(12ce8d3e805754f859045452539301b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Animator/SetAnimatorPlayBackSpeed.cs using Guid(12ce8d3e805754f859045452539301b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '057488a23f8066d51718a91f2bcb38df') in 0.014151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PlayMaker/Actions/Animator/AnimatorPlay.cs
+  artifactKey: Guid(b66532287fa3a4997ae5dcfb967ff46c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Animator/AnimatorPlay.cs using Guid(b66532287fa3a4997ae5dcfb967ff46c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea01712fa2147e4494d5129dbab7f523') in 0.016554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.324611 seconds.
+  path: Assets/PlayMaker/Actions/Audio/PlaySound.cs
+  artifactKey: Guid(61417d8946e6d0f4db90854a047e6d2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Audio/PlaySound.cs using Guid(61417d8946e6d0f4db90854a047e6d2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c47b993504c3c0f10e777d774fa0a643') in 0.028270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/PlayMaker/Actions/GUI/SetGUIContentColor.cs
+  artifactKey: Guid(249bd3a217fcef24f8d8841f7cfcd510) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/GUI/SetGUIContentColor.cs using Guid(249bd3a217fcef24f8d8841f7cfcd510) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '528a9c5fd869bebdf8ca75920a592b40') in 0.015797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/Input/GetButtonUp.cs
+  artifactKey: Guid(8fdb363c300e2ae4e8bad177b18c1eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Input/GetButtonUp.cs using Guid(8fdb363c300e2ae4e8bad177b18c1eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f87ab4480df6561601699fb2179f7037') in 0.015035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PlayMaker/Actions/GUI/SetGUIDepth.cs
+  artifactKey: Guid(60696b5a384803a449ea3ad476738f41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/GUI/SetGUIDepth.cs using Guid(60696b5a384803a449ea3ad476738f41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa51dc78f9e8f85c39ed790a1bfec31c') in 0.015424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PlayMaker/Actions/Character/GetControllerVelocity.cs
+  artifactKey: Guid(be5c9d33ea9db9346ac258213c127cb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Character/GetControllerVelocity.cs using Guid(be5c9d33ea9db9346ac258213c127cb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c62f5a9f6d7406a466bffff787ba0407') in 0.016807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PlayMaker/Actions/GameObject/DestroyObject.cs
+  artifactKey: Guid(e731ab92ba211bd41acccbd77b4e1575) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/GameObject/DestroyObject.cs using Guid(e731ab92ba211bd41acccbd77b4e1575) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02fdb931401f98a5def9ed753dd37f05') in 0.015242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/PlayMaker/Actions/Device/SwipeGestureEvent.cs
+  artifactKey: Guid(66431494506220f4b84c08b4d259d7dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Device/SwipeGestureEvent.cs using Guid(66431494506220f4b84c08b4d259d7dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8a662617dec6e50b98871c189b48e19') in 0.015373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/Color/SetColorValue.cs
+  artifactKey: Guid(9d987edef72027a408b133b1a138d8fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Color/SetColorValue.cs using Guid(9d987edef72027a408b133b1a138d8fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd95dc2065b55e24800f4f410a5babee') in 0.015506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/Camera/CutToCamera.cs
+  artifactKey: Guid(62eb7e2e15da7094383d7bf068082c7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Camera/CutToCamera.cs using Guid(62eb7e2e15da7094383d7bf068082c7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2626c1bddd00a081feb90970a146457b') in 0.017205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/Input/GetKey.cs
+  artifactKey: Guid(09e09d95b123250499060078cf57b480) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Input/GetKey.cs using Guid(09e09d95b123250499060078cf57b480) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34aaff3810e7ee3db7a8e4b1104c2575') in 0.014022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/Input/GetAxis.cs
+  artifactKey: Guid(46dfe4d824cf8b14593e4e9d57327b96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Input/GetAxis.cs using Guid(46dfe4d824cf8b14593e4e9d57327b96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f834ebc8f92f8382f72730a913208dda') in 0.016329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/GUILayout/GUILayoutBox.cs
+  artifactKey: Guid(10aedf67ed01d084d9f7ca62ebe92533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/GUILayout/GUILayoutBox.cs using Guid(10aedf67ed01d084d9f7ca62ebe92533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '121af2cb96cee3703bc76c904ab544b8') in 0.014250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PlayMaker/Actions/Debug/DebugBool.cs
+  artifactKey: Guid(ac3bb315ecd09f54d8ae6732d7dbbd85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Debug/DebugBool.cs using Guid(ac3bb315ecd09f54d8ae6732d7dbbd85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97b13ca378ebf04817f5a8a106ee1cf2') in 0.017423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/PlayMaker/Actions/GameObject/GetChildCount.cs
+  artifactKey: Guid(8efed92cdcc759c4f94d26420dd73d87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/GameObject/GetChildCount.cs using Guid(8efed92cdcc759c4f94d26420dd73d87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '214d359b6b9e1eeedbeaf18e8b01fd30') in 0.013707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PlayMaker/Actions/Color/GetColorRGBA.cs
+  artifactKey: Guid(20a1bfe0231a3d447af9ee3bfab360f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Color/GetColorRGBA.cs using Guid(20a1bfe0231a3d447af9ee3bfab360f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b6f4811a23b06f26103370aa9b84e9d') in 0.015353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PlayMaker/Actions/GameObject/DeactivateSelf.cs
+  artifactKey: Guid(0b38dc0027ba7504cb5518a74b35261f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/GameObject/DeactivateSelf.cs using Guid(0b38dc0027ba7504cb5518a74b35261f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c2e77a8dcead1a735a430ec319564ea0') in 0.015817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/GameObject/SelectRandomGameObject.cs
+  artifactKey: Guid(132d207d2906f2742b8aa09313847d1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/GameObject/SelectRandomGameObject.cs using Guid(132d207d2906f2742b8aa09313847d1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '976d0b28a127a7547e3a333ceef30536') in 0.010937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PlayMaker/Actions/GUILayout/GUILayoutEndCentered.cs
+  artifactKey: Guid(89536a71cb2d5d646b6848e75bd3462f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/GUILayout/GUILayoutEndCentered.cs using Guid(89536a71cb2d5d646b6848e75bd3462f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b8fd8ae44745e79476188e6d551edc1') in 0.014964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PlayMaker/Actions/GUI/GUIHorizontalSlider.cs
+  artifactKey: Guid(25a46b5ed1cd97e439e3450484cea7af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/GUI/GUIHorizontalSlider.cs using Guid(25a46b5ed1cd97e439e3450484cea7af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d597152e4063292dab7836cc743760a') in 0.014512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/PlayMaker/Actions/Device/DeviceOrientationEvent.cs
+  artifactKey: Guid(eb3c398f2f2220c44ad7e329f8635c3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Device/DeviceOrientationEvent.cs using Guid(eb3c398f2f2220c44ad7e329f8635c3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ec370dcf67c1b72c0e6ac2ec50f4569') in 0.014582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/GUI/GUILabel.cs
+  artifactKey: Guid(f6f9a724c3a042e459fdd042677426b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/GUI/GUILabel.cs using Guid(f6f9a724c3a042e459fdd042677426b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0492091ffdff30b8a0247bd29d1dae7a') in 0.017606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/Device/TouchGUIEvent.cs
+  artifactKey: Guid(31371b1c65846cd49ab0207915507fd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Device/TouchGUIEvent.cs using Guid(31371b1c65846cd49ab0207915507fd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '028579f5f6ed36e977acdf7b3837b9fe') in 0.015042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/GUI/SetGUIColor.cs
+  artifactKey: Guid(31b0ef84843dda14eb74bc1bfecdc167) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/GUI/SetGUIColor.cs using Guid(31b0ef84843dda14eb74bc1bfecdc167) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8fb2d4bfa4dd7979bff25f91d1ea958') in 0.013943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/Device/ProjectLocationToMap.cs
+  artifactKey: Guid(ee930a4ffcdc9264c84ed0aa9ca07647) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Device/ProjectLocationToMap.cs using Guid(ee930a4ffcdc9264c84ed0aa9ca07647) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea4783900040ec5318d7cccb6c08e08f') in 0.014914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/GUILayout/GUILayoutLabel.cs
+  artifactKey: Guid(04c8d5fb24524c8448204a0732529090) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/GUILayout/GUILayoutLabel.cs using Guid(04c8d5fb24524c8448204a0732529090) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ad9520f96b6ddf9ed49f44d6f95acb7') in 0.014163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/Effects/Flicker.cs
+  artifactKey: Guid(e15058fb95219274db6d7f289f12181c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Effects/Flicker.cs using Guid(e15058fb95219274db6d7f289f12181c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4fd3ad9ca06479bd8bb098d55874431a') in 0.015733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/GUIElement/SetGUITextureAlpha.cs
+  artifactKey: Guid(08b78615a290fed42985e1549b225a17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/GUIElement/SetGUITextureAlpha.cs using Guid(08b78615a290fed42985e1549b225a17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90af4cc4e48dc7dc7b7d8163e149f309') in 0.015582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/GUILayout/GUILayoutBeginAreaFollowObject.cs
+  artifactKey: Guid(4f950adc018606d4c8bab36697f6732c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/GUILayout/GUILayoutBeginAreaFollowObject.cs using Guid(4f950adc018606d4c8bab36697f6732c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1dc67b7cd7785186a00449b1fc87deb2') in 0.011904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.106126 seconds.
+  path: Assets/PlayMaker/Actions/Level/LoadLevelNum.cs
+  artifactKey: Guid(4639facb079d91c45afd211dc4427bc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Level/LoadLevelNum.cs using Guid(4639facb079d91c45afd211dc4427bc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0f20187575f9d818845a67960ad3081') in 0.025760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/Math/FloatWrap.cs
+  artifactKey: Guid(a6881d0ecad6f0b42aca8b553859784c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Math/FloatWrap.cs using Guid(a6881d0ecad6f0b42aca8b553859784c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6319d232d874b8f95517173c8ab3a9ff') in 0.016487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/Logic/FloatChanged.cs
+  artifactKey: Guid(739cb6d4280e5c143ae53b1678d6ca11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Logic/FloatChanged.cs using Guid(739cb6d4280e5c143ae53b1678d6ca11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '77d53b006947fc539fc738705fe28f71') in 0.013787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/Math/SampleCurve.cs
+  artifactKey: Guid(ff6ea1c567e6324418af3ce38d21ad15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Math/SampleCurve.cs using Guid(ff6ea1c567e6324418af3ce38d21ad15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c0522ce54347684770036ad5f002944') in 0.015734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/Physics/GetCollisionInfo.cs
+  artifactKey: Guid(8241c7f0706b3bc41a7e3a8155be2824) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Physics/GetCollisionInfo.cs using Guid(8241c7f0706b3bc41a7e3a8155be2824) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '49221196fc7d2beddb2230b1744f1908') in 0.012023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/PlayerInput/PlayerInputGetBool.cs
+  artifactKey: Guid(c12fa623a74abab45acf71e83ad9b795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/PlayerInput/PlayerInputGetBool.cs using Guid(c12fa623a74abab45acf71e83ad9b795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e86ebc275bac8f129660c47cffc85dd') in 0.016494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/PlayMaker/Actions/Quaternion/QuaternionEuler.cs
+  artifactKey: Guid(1dfae9aec90344b698eb3a1bb52c7e7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Quaternion/QuaternionEuler.cs using Guid(1dfae9aec90344b698eb3a1bb52c7e7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '21f867dd8f5833859aff5a28488272e4') in 0.016910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/Physics2D/Sleep2d.cs
+  artifactKey: Guid(0660988017b964055a4f2c8f4ea48a2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Physics2D/Sleep2d.cs using Guid(0660988017b964055a4f2c8f4ea48a2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82e696fe19ce38b86d2a9443cf890ebc') in 0.014221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/Lights/SetLightType.cs
+  artifactKey: Guid(cd567235dfdc08d4ba995b3fe196c186) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Lights/SetLightType.cs using Guid(cd567235dfdc08d4ba995b3fe196c186) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf1beb4a967d25ef90531c0f521659a5') in 0.011935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PlayMaker/Actions/PlayerInput/PlayerInputCanceledEvent.cs
+  artifactKey: Guid(6f9172d25a8ed7147931614f34c1da90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/PlayerInput/PlayerInputCanceledEvent.cs using Guid(6f9172d25a8ed7147931614f34c1da90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b5e35ab9f76e1bdbc237c8c2d5714a3') in 0.013073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/Quaternion/QuaternionLerp.cs
+  artifactKey: Guid(c8fb9a75de503405bafbc360167a41f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Quaternion/QuaternionLerp.cs using Guid(c8fb9a75de503405bafbc360167a41f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7cc6548638a6d7f9b13f1d8613b76850') in 0.015097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PlayMaker/Actions/Logic/Vector2Compare.cs
+  artifactKey: Guid(ea28b7bc89523a840b0f8ba9be8fd8d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Logic/Vector2Compare.cs using Guid(ea28b7bc89523a840b0f8ba9be8fd8d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b311fdff40b17d663bdc4c445d0706d') in 0.014373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PlayMaker/Actions/Logic/BoolChanged.cs
+  artifactKey: Guid(5d16cd2973206874084f6e5b99aff702) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Logic/BoolChanged.cs using Guid(5d16cd2973206874084f6e5b99aff702) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab5cfaa2eaf76b0955d7e90983d3162a') in 0.016194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/Lights/SetShadowStrength.cs
+  artifactKey: Guid(a409f184b264b374182d5f219718fc0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Lights/SetShadowStrength.cs using Guid(a409f184b264b374182d5f219718fc0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c7a0c39516b70bf74afec72acca2125') in 0.016210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/Logic/BoolAnyTrue.cs
+  artifactKey: Guid(92aa7496b9c7dbe49b0623baa74e7db1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Logic/BoolAnyTrue.cs using Guid(92aa7496b9c7dbe49b0623baa74e7db1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '509eeae5e9761c7f650ba3f8ab3cf3a8') in 0.013468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/PlayMaker/Actions/PlayerPrefs/PlayerPrefsDeleteKey.cs
+  artifactKey: Guid(127b0deba2e8e4726be24dafbcf9a6d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/PlayerPrefs/PlayerPrefsDeleteKey.cs using Guid(127b0deba2e8e4726be24dafbcf9a6d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5e3724c92277d56dfee2eb74f74dc23') in 0.015313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/PlayMaker/Actions/Math/FloatAddMultiple.cs
+  artifactKey: Guid(30f480222cbd14e46a7dfdb3ec00fb35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Math/FloatAddMultiple.cs using Guid(30f480222cbd14e46a7dfdb3ec00fb35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '406643e7e6af7251098b47948ee76988') in 0.014789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/Physics/GetMass.cs
+  artifactKey: Guid(ffabb4161e65b10469326724e680a136) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Physics/GetMass.cs using Guid(ffabb4161e65b10469326724e680a136) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93f8a5e90359448a27ecb8f7987ec469') in 0.015845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/Math/FloatDeltaAngle.cs
+  artifactKey: Guid(99b30c473730e9245bc9c23314506f1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Math/FloatDeltaAngle.cs using Guid(99b30c473730e9245bc9c23314506f1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af9c8b209d5fa84fddcc7483bc648881') in 0.015280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PlayMaker/Actions/Physics/GetSpeed.cs
+  artifactKey: Guid(8c8f62156b62b7c42953ef79868fc3a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Physics/GetSpeed.cs using Guid(8c8f62156b62b7c42953ef79868fc3a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0f9bc43a9c0038ea0e4483fec681159') in 0.015507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/Logic/GameObjectTagSwitch.cs
+  artifactKey: Guid(59478a071e6d32d45aa0b076e9cd9017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Logic/GameObjectTagSwitch.cs using Guid(59478a071e6d32d45aa0b076e9cd9017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a047aa2884d53f367e2558107f480488') in 0.012107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PlayMaker/Actions/Math/RandomFloat.cs
+  artifactKey: Guid(f0884723e2cedce4e96387c846f324fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Math/RandomFloat.cs using Guid(f0884723e2cedce4e96387c846f324fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df5f17133303ac78adff54b450f23e23') in 0.018947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PlayMaker/Actions/ProceduralMaterial/SetProceduralBoolean.cs
+  artifactKey: Guid(a9a71c9262166f54194d207928fac882) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/ProceduralMaterial/SetProceduralBoolean.cs using Guid(a9a71c9262166f54194d207928fac882) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3bea476f057adde195bfce3412aa7383') in 0.016643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/Physics2D/SetGravity2d.cs
+  artifactKey: Guid(2e993b15a1ec247ca83fa651a184812a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Physics2D/SetGravity2d.cs using Guid(2e993b15a1ec247ca83fa651a184812a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9024ef2ca03bce103429fc6dfffc4f94') in 0.015043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/Logic/GameObjectHasChildren.cs
+  artifactKey: Guid(002d4d76d73b72447a3f0f535181ed23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Logic/GameObjectHasChildren.cs using Guid(002d4d76d73b72447a3f0f535181ed23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5528885259a4938af91950f8457a62ec') in 0.015090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PlayMaker/Actions/Material/SetMaterial.cs
+  artifactKey: Guid(2123b532aa5869945839a781ff8b14e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Material/SetMaterial.cs using Guid(2123b532aa5869945839a781ff8b14e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98fecdd4dd358ae6a344754132bdda7a') in 0.016783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PlayMaker/Actions/Physics/SetVelocity.cs
+  artifactKey: Guid(1c20dda97df3fd54cab324f8e260fab7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Physics/SetVelocity.cs using Guid(1c20dda97df3fd54cab324f8e260fab7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df57936457cf51839182c4a1779aa804') in 0.012691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PlayMaker/Actions/PlayerInput/PlayerInputUpdateActionBase.cs
+  artifactKey: Guid(f0e1c94b4cdb9f84aa26673d1ad0507c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/PlayerInput/PlayerInputUpdateActionBase.cs using Guid(f0e1c94b4cdb9f84aa26673d1ad0507c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13d3595b32667f078365a4a3a2f46896') in 0.013528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.880965 seconds.
+  path: Assets/PlayMaker/Actions/RectTransform/RectTransformGetAnchorMinAndMax.cs
+  artifactKey: Guid(f60074867f2974228ad6f5de5639e362) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/RectTransform/RectTransformGetAnchorMinAndMax.cs using Guid(f60074867f2974228ad6f5de5639e362) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d92482123c8a917b6d7eb04fd08622e') in 0.024811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/PlayMaker/Actions/Vector2/GetVector2XY.cs
+  artifactKey: Guid(60c8dd0dc3fd745a5841ca1d02a74726) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Vector2/GetVector2XY.cs using Guid(60c8dd0dc3fd745a5841ca1d02a74726) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46da333623422c55e814f7662aefb06c') in 0.016562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/Vector2/Vector2HighPassFilter.cs
+  artifactKey: Guid(eea0562bc1a9a4c11a0f5ad88c520337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Vector2/Vector2HighPassFilter.cs using Guid(eea0562bc1a9a4c11a0f5ad88c520337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8df052d8c25df165ccc2fef106d5a446') in 0.015291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PlayMaker/Actions/StateMachine/GetFsmGameObject.cs
+  artifactKey: Guid(97e6a2e52290e6b4f93900fe4ad21449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/StateMachine/GetFsmGameObject.cs using Guid(97e6a2e52290e6b4f93900fe4ad21449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8a4dbde484486ec7b0cafd2e25023ddf') in 0.015269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/StateMachine/SendEventToFsm.cs
+  artifactKey: Guid(e67332eeb4ef833489b089d1d65e041f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/StateMachine/SendEventToFsm.cs using Guid(e67332eeb4ef833489b089d1d65e041f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78dd80c77f9d55d3806c0d9e33d48dc7') in 0.014374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/StateMachine/LateUpdateEvent.cs
+  artifactKey: Guid(d8524b4334ab93e4faf8e4d9111e9cc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/StateMachine/LateUpdateEvent.cs using Guid(d8524b4334ab93e4faf8e4d9111e9cc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '15d08acd96dc5d92785c0464a7339abc') in 0.013684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/Vector3/Vector3Add.cs
+  artifactKey: Guid(6a6160d3d3082a444b0f832be8f920b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Vector3/Vector3Add.cs using Guid(6a6160d3d3082a444b0f832be8f920b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3bdbfe71460dd6f7f7970fb5db7221e1') in 0.013077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/StateMachine/GetFsmString.cs
+  artifactKey: Guid(fdd74848050c6b44eab573991ac7e31d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/StateMachine/GetFsmString.cs using Guid(fdd74848050c6b44eab573991ac7e31d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0b8674256532306dfcdd5eea09b0e6b') in 0.010855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PlayMaker/Actions/StateMachine/SetFsmColor.cs
+  artifactKey: Guid(93521bb024ec50d46974db698c20b312) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/StateMachine/SetFsmColor.cs using Guid(93521bb024ec50d46974db698c20b312) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e2c4b278e5e90fad880dd932d08f9e30') in 0.012103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/Tween/TweenQuaternion.cs
+  artifactKey: Guid(22e16d25c7bab54458b1b5f4ebc831ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Tween/TweenQuaternion.cs using Guid(22e16d25c7bab54458b1b5f4ebc831ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6e3df5f89cd899c75cda6cef710ffec') in 0.013127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/String/GetStringRight.cs
+  artifactKey: Guid(58939666c2ca9cc449f67a55d54d9a88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/String/GetStringRight.cs using Guid(58939666c2ca9cc449f67a55d54d9a88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02e7695cee7e7420f9428105ca55c4b0') in 0.014598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/PlayMaker/Actions/UI/UiInputFieldGetWasCanceled.cs
+  artifactKey: Guid(be1d8d91bf5e07e42b9aaa85bd8d4870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/UI/UiInputFieldGetWasCanceled.cs using Guid(be1d8d91bf5e07e42b9aaa85bd8d4870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '23872d8ebfd526ddf98ed3f4d66f9c62') in 0.014564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/StateMachine/GotoPreviousState.cs
+  artifactKey: Guid(bfc61e41661b780488c6babd4d1de9a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/StateMachine/GotoPreviousState.cs using Guid(bfc61e41661b780488c6babd4d1de9a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a160447a86e7089863dfba515d4ce503') in 0.014156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/StateMachine/GetFsmTexture.cs
+  artifactKey: Guid(a8b2a265ff450ee418db802c965b15a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/StateMachine/GetFsmTexture.cs using Guid(a8b2a265ff450ee418db802c965b15a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02bb440a46624254d2bd44e53d7bca54') in 0.014573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PlayMaker/Actions/UI/UiScrollbarSetDirection.cs
+  artifactKey: Guid(09a5d8f91e0586b4783592ab10bcb996) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/UI/UiScrollbarSetDirection.cs using Guid(09a5d8f91e0586b4783592ab10bcb996) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72da6eb493aa423a11ea6fc3b4a47f4b') in 0.013147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/RectTransform/RectTransformSetAnchorMin.cs
+  artifactKey: Guid(fba31cbc48aa54bd2846080b8a5e255b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/RectTransform/RectTransformSetAnchorMin.cs using Guid(fba31cbc48aa54bd2846080b8a5e255b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '024fab7872cee04e4bb4dd243fa5d855') in 0.015826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PlayMaker/Actions/SceneManager/GetSceneIsDirty.cs
+  artifactKey: Guid(f840794224eec4878802d1cb77224906) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/SceneManager/GetSceneIsDirty.cs using Guid(f840794224eec4878802d1cb77224906) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9190c47513a460c360426ca5a38f281d') in 0.016005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/SceneManager/GetSceneName.cs
+  artifactKey: Guid(8c893fc99fca6474493b38581b4beda9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/SceneManager/GetSceneName.cs using Guid(8c893fc99fca6474493b38581b4beda9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a4268b219db8ea5bf7d62e423e5d8950') in 0.016749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PlayMaker/Actions/StateMachine/BlockEvents.cs
+  artifactKey: Guid(af0c205204ff5ed42b90bd3f47052382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/StateMachine/BlockEvents.cs using Guid(af0c205204ff5ed42b90bd3f47052382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aef6ff87a583204054845dd0a3970bcf') in 0.014159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/SceneManager/GetSceneActivateChangedEventData.cs
+  artifactKey: Guid(6f41199019f0643ea9c9f451037865f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/SceneManager/GetSceneActivateChangedEventData.cs using Guid(6f41199019f0643ea9c9f451037865f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1e9de2a9ef39bfb7dc7d82bc64beb2a3') in 0.013784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/StateMachine/SetFsmBool.cs
+  artifactKey: Guid(cf09b613f0b23504ebb8e5a237f3d7ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/StateMachine/SetFsmBool.cs using Guid(cf09b613f0b23504ebb8e5a237f3d7ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2a6c7c9cf6392c6bffb2c4ddd82fe0b2') in 0.012566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PlayMaker/Actions/RectTransform/RectTransformGetLocalPosition.cs
+  artifactKey: Guid(395f041d4f95642d2a4e8075e0ac7479) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/RectTransform/RectTransformGetLocalPosition.cs using Guid(395f041d4f95642d2a4e8075e0ac7479) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2743e79a61610fe18a177be3a00abdb9') in 0.013440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/ScriptControl/CallStaticMethod.cs
+  artifactKey: Guid(0066a44ba6edb0d469cc3ac4d31ba298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/ScriptControl/CallStaticMethod.cs using Guid(0066a44ba6edb0d469cc3ac4d31ba298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c354dea32d6df3ddada5f37b681caf9f') in 0.015247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PlayMaker/Actions/String/SelectRandomString.cs
+  artifactKey: Guid(2aa2969464467894fadeaa9c413e447f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/String/SelectRandomString.cs using Guid(2aa2969464467894fadeaa9c413e447f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd3cd60c0d100227499d693312628dc03') in 0.012774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PlayMaker/Actions/Tween/EasingFunctionLicense.txt
+  artifactKey: Guid(3e273f4096c3e5742aad87445488143b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Tween/EasingFunctionLicense.txt using Guid(3e273f4096c3e5742aad87445488143b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '520919dc614cab61133d5fdcb9736fc7') in 0.018488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PlayMaker/Actions/UI/UiInputFieldSetSelectionColor.cs
+  artifactKey: Guid(f996507b070029b4297e08b2bd1158e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/UI/UiInputFieldSetSelectionColor.cs using Guid(f996507b070029b4297e08b2bd1158e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ab6f2ab0684f1e6ba06772648d6014f') in 0.012251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PlayMaker/Actions/UI/UiTextSetText.cs
+  artifactKey: Guid(556467928ec8f024ea1f8cc8e996c8ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/UI/UiTextSetText.cs using Guid(556467928ec8f024ea1f8cc8e996c8ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '59268a861688269fc20b039117e52208') in 0.012213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/RectTransform/RectTransformSetAnchorMax.cs
+  artifactKey: Guid(9cb540e77793f4c059ec35c21b3abaa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/RectTransform/RectTransformSetAnchorMax.cs using Guid(9cb540e77793f4c059ec35c21b3abaa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ee0f5e7ef30752382797f5a25ae5358') in 0.013540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/String/BuildString.cs
+  artifactKey: Guid(7b2ad575559473e4db421da96131de2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/String/BuildString.cs using Guid(7b2ad575559473e4db421da96131de2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fae9eaceeb34c30216e20281563e6c96') in 0.014306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/SceneManager/GetSceneIsValid.cs
+  artifactKey: Guid(41c9514e1366a44abb9c57101a320bb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/SceneManager/GetSceneIsValid.cs using Guid(41c9514e1366a44abb9c57101a320bb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4dec6b64a97460a395822e74e3ac3389') in 0.013065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/UI/UiToggleGetIsOn.cs
+  artifactKey: Guid(0656aa83464169b4da80db4764165f72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/UI/UiToggleGetIsOn.cs using Guid(0656aa83464169b4da80db4764165f72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '21819d845249eb87ce78cda81bd16486') in 0.013563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/StateMachine/GetFsmFloat.cs
+  artifactKey: Guid(0e5e91cfed7b66c44b7f5bde1f59fe30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/StateMachine/GetFsmFloat.cs using Guid(0e5e91cfed7b66c44b7f5bde1f59fe30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1f335907097121f2b57cb23945ddd38') in 0.013437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PlayMaker/Actions/UI/UiDropDownAddOptions.cs
+  artifactKey: Guid(db599ae947dea76439c4ddc617bd4df0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/UI/UiDropDownAddOptions.cs using Guid(db599ae947dea76439c4ddc617bd4df0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e7fe1f02cc3ef778adb429113f966c0') in 0.013368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PlayMaker/Actions/StateMachine/BaseFsmVariableAction.cs
+  artifactKey: Guid(2417f8d9985a6a84595b4ce3ee641b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/StateMachine/BaseFsmVariableAction.cs using Guid(2417f8d9985a6a84595b4ce3ee641b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c2f59ddf495567247a3949eafd002129') in 0.013503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/SpriteRenderer/GetSpriteMaskInteraction.cs
+  artifactKey: Guid(f1e1a79b8272c784fbd9719d8f1bfe80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/SpriteRenderer/GetSpriteMaskInteraction.cs using Guid(f1e1a79b8272c784fbd9719d8f1bfe80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7fdfb26f49dfb100650e9b24a925522') in 0.017682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/Trigonometry/GetASine.cs
+  artifactKey: Guid(a8937798f5f704e5fa51b286a972dbe2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Trigonometry/GetASine.cs using Guid(a8937798f5f704e5fa51b286a972dbe2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0cf1d695c4492005296a4163823b1a22') in 0.013418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/StateMachine/BaseFsmVariableIndexAction.cs
+  artifactKey: Guid(37ea9ae7ff8e58d4c84872f21d5c8182) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/StateMachine/BaseFsmVariableIndexAction.cs using Guid(37ea9ae7ff8e58d4c84872f21d5c8182) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe2ae7d3dbc2e37a296d9577ebe93b0b') in 0.013512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/SceneManager/LoadScene.cs
+  artifactKey: Guid(adef3568eb9dd4418893b4c592975e04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/SceneManager/LoadScene.cs using Guid(adef3568eb9dd4418893b4c592975e04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd8baaad67e22aae969341daec2a272bd') in 0.015543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PlayMaker/Actions/Time/RandomWait.cs
+  artifactKey: Guid(37507b4af45ecfc42a3231ce7c64377d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Time/RandomWait.cs using Guid(37507b4af45ecfc42a3231ce7c64377d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '383218d10619cc2a86bbd254e91ccc89') in 0.013509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PlayMaker/Actions/Transform/Translate.cs
+  artifactKey: Guid(64964a3148c610e4ba0de21b424e6169) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Transform/Translate.cs using Guid(64964a3148c610e4ba0de21b424e6169) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8462627f90b7bd3ca82f23d33b7875f4') in 0.014159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/UI/UiGraphicCrossFadeColor.cs
+  artifactKey: Guid(f6d355d5b7dd2564ea8acea1cae760c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/UI/UiGraphicCrossFadeColor.cs using Guid(f6d355d5b7dd2564ea8acea1cae760c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '666be75bb1684bb29a54abd864ac55cb') in 0.013833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/SceneManager/GetSceneProperties.cs
+  artifactKey: Guid(3ded9d612cf024b8db06fb35e28aab17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/SceneManager/GetSceneProperties.cs using Guid(3ded9d612cf024b8db06fb35e28aab17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61760cc9f781de1525b560a451be60aa') in 0.014545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.478730 seconds.
+  path: Assets/PlayMaker/Actions/Vector3/Vector3Lerp.cs
+  artifactKey: Guid(4e8abfcbb5b772d44b446227d460eaf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Vector3/Vector3Lerp.cs using Guid(4e8abfcbb5b772d44b446227d460eaf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76d71b5c40b2f5bfbdeda8b013c1c339') in 0.012263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PlayMaker/Editor/Watermarks/Cycle.png
+  artifactKey: Guid(ee577a066ea5e0942be6879c7e58fb38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Watermarks/Cycle.png using Guid(ee577a066ea5e0942be6879c7e58fb38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ade6975bbc19467bb120db91c34cfdf4') in 0.020021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Editor/Resources/linkAddons.png
+  artifactKey: Guid(f06fcb30f18e9c446afa65d01a0546aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Resources/linkAddons.png using Guid(f06fcb30f18e9c446afa65d01a0546aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8341079433441e1da81ee08e80a2c5a') in 0.027150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UniGLTF/DepthFirstScheduler/Scheduler/StepScheduler.cs
+  artifactKey: Guid(84161938c020c37419bc79f021f849fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/DepthFirstScheduler/Scheduler/StepScheduler.cs using Guid(84161938c020c37419bc79f021f849fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '17500c62463431bca4085f5a6b2fe722') in 0.015424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerPlay.cs
+  artifactKey: Guid(b7a631f7e1a594850a713bf95bdbdd87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerPlay.cs using Guid(b7a631f7e1a594850a713bf95bdbdd87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0466d2ba36f3445d83b34708b4a330e0') in 0.014913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Editor/Watermarks/playMakerLogo.png
+  artifactKey: Guid(39389ad5c03bbaf4cb3903a9a7349bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Watermarks/playMakerLogo.png using Guid(39389ad5c03bbaf4cb3903a9a7349bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '039ef3bf8de3529beab11403f8e4e6fb') in 0.016623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerSetTargetCamera.cs
+  artifactKey: Guid(6ddecdcf5e4f04c0eb246b7a749aa630) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerSetTargetCamera.cs using Guid(6ddecdcf5e4f04c0eb246b7a749aa630) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '810835a6e1f41d6898788b8175e28b96') in 0.011782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Editor/Watermarks/StarInCircle.png
+  artifactKey: Guid(d06d066acbe641949a1dbabc7a5de36f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Watermarks/StarInCircle.png using Guid(d06d066acbe641949a1dbabc7a5de36f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90ea1afc44393af65c054bcfa57e4064') in 0.015871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PolyTope_VoxelWorld_Animals/Content/Prefabs/prefab_prop_animal_fox.prefab
+  artifactKey: Guid(e8b9e166c8b997f4cb6b716f551a57e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolyTope_VoxelWorld_Animals/Content/Prefabs/prefab_prop_animal_fox.prefab using Guid(e8b9e166c8b997f4cb6b716f551a57e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b3e4173a5c38267d6a9b0710a50aa6f') in 0.019747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PlayMaker/Editor/Watermarks/Broadcast.png
+  artifactKey: Guid(531bf6557d7e6ea458ffc5f3908c6aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Watermarks/Broadcast.png using Guid(531bf6557d7e6ea458ffc5f3908c6aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0f5bf0f96ea4ca98ff749ff7d7b77b1d') in 0.014795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Editor/Watermarks/Dog.png
+  artifactKey: Guid(662b000d02a94844cab8343d1fb50b61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Watermarks/Dog.png using Guid(662b000d02a94844cab8343d1fb50b61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e76b786ef82b547031086bcbd722544') in 0.021503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerGetIsPrepared.cs
+  artifactKey: Guid(b79de463b7bd84071b9568be2aafd3d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerGetIsPrepared.cs using Guid(b79de463b7bd84071b9568be2aafd3d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '299b5a4f5641e8bf0f0598f1509b25e6') in 0.009219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerGetRenderMode.cs
+  artifactKey: Guid(87868354a28594e50a2af4fa95468d0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerGetRenderMode.cs using Guid(87868354a28594e50a2af4fa95468d0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7151f17110a8f847d7081436d1eff2f8') in 0.013909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerSetSkipOnDrop.cs
+  artifactKey: Guid(455df11561f8c4f1286243879545f4e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerSetSkipOnDrop.cs using Guid(455df11561f8c4f1286243879545f4e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ff58584059b5fe57af6221111bf388c0') in 0.013300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Editor/Watermarks/Rows.png
+  artifactKey: Guid(3bc1fb38ffb4f2145afbb92ae706f329) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Watermarks/Rows.png using Guid(3bc1fb38ffb4f2145afbb92ae706f329) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9147da0cc8a9cc12c4c75d06479e93d8') in 0.022325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Editor/Watermarks/Bang.png
+  artifactKey: Guid(ac2f9ada26884da4588ffae7d1e8121f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Watermarks/Bang.png using Guid(ac2f9ada26884da4588ffae7d1e8121f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a7dc0babb06903e3c555cf75fb72b5e') in 0.015827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerGetCanSetPlaybackSpeed.cs
+  artifactKey: Guid(1516bfebe75294e1b8e2795640fb5817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerGetCanSetPlaybackSpeed.cs using Guid(1516bfebe75294e1b8e2795640fb5817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf278b2ce494983cdee411dab7c89dd8') in 0.014316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerSetAudioOutputMode.cs
+  artifactKey: Guid(c294998357fc94e7bac587faf3ebe4ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerSetAudioOutputMode.cs using Guid(c294998357fc94e7bac587faf3ebe4ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb06da9f2dfabd6542eb711fd200e2f5') in 0.013479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/VideoClip/VideoClipGetOriginalPath.cs
+  artifactKey: Guid(a9fa8ce2c02b54b98a22739fe0b67607) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/VideoClip/VideoClipGetOriginalPath.cs using Guid(a9fa8ce2c02b54b98a22739fe0b67607) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7fd56eafd6b76441ceedee308179970f') in 0.013061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerLoopPointReachedEvent.cs
+  artifactKey: Guid(02b46e9e02a4d44bf895e1d4411d52ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerLoopPointReachedEvent.cs using Guid(02b46e9e02a4d44bf895e1d4411d52ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ec47a47d3cc1b1ba0fa860162ae476e') in 0.011331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PlayMaker/Editor/Watermarks/MushroomCloud.png
+  artifactKey: Guid(b6610169865943f47b0cf7c97de4c201) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Watermarks/MushroomCloud.png using Guid(b6610169865943f47b0cf7c97de4c201) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8a7963cb943ab7d950098fea52c3cf0') in 0.016637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UniGLTF/UniUnlit/Scripts/Utils.cs
+  artifactKey: Guid(e96cbbd810384352a6799dd731533178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/UniUnlit/Scripts/Utils.cs using Guid(e96cbbd810384352a6799dd731533178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0310c416d5f986dc6bcd5c5c6930e995') in 0.012007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PlayMaker/Editor/Watermarks/Timer.png
+  artifactKey: Guid(7f48cf158f652204599f9718da5fc8b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Watermarks/Timer.png using Guid(7f48cf158f652204599f9718da5fc8b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0122c0827903a9fe706d3b1862c851bb') in 0.015475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerErrorEvent.cs
+  artifactKey: Guid(e2e0acd4ddb9748958ba1aebbfca4e19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/VideoPlayer/VideoPlayerErrorEvent.cs using Guid(e2e0acd4ddb9748958ba1aebbfca4e19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd60e971b9b7bfe5df657c28be647bfd5') in 0.015364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PlayMaker/Editor/Watermarks/Microphone.png
+  artifactKey: Guid(9e676d4570d532c438b913bf934579f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Watermarks/Microphone.png using Guid(9e676d4570d532c438b913bf934579f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cbce5f1767a2bd402f67f5b08f358071') in 0.016084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/STYLY_Plugin/Scripts/Editor/MiniJSON.cs
+  artifactKey: Guid(1fbe69149d1d34115b856efe96e84508) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/Scripts/Editor/MiniJSON.cs using Guid(1fbe69149d1d34115b856efe96e84508) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89b23046ad4b8a1842a32103ef66798f') in 0.013711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/STYLY_Plugin/STYLY_ImmersalUI/Sprites/image_frame.png
+  artifactKey: Guid(077704eadae8f4eae94e239c0bba1db0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_ImmersalUI/Sprites/image_frame.png using Guid(077704eadae8f4eae94e239c0bba1db0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ba5475830ae8111d4787283c862b7955') in 0.030227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Editor/Resources/backButton@2x.png
+  artifactKey: Guid(78246224f53948442a3906684a167289) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Resources/backButton@2x.png using Guid(78246224f53948442a3906684a167289) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd7f2139367e1ea1c93d6ba4df5bc374d') in 0.013953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Editor/Watermarks/Key.png
+  artifactKey: Guid(f66e9dd8406b6fd43b861cebe995f540) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Watermarks/Key.png using Guid(f66e9dd8406b6fd43b861cebe995f540) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '543242fc70682b440ba1ab94f309d83f') in 0.021545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Editor/Watermarks/Music.png
+  artifactKey: Guid(f0e5750071221f64285d55ce8fb67296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Watermarks/Music.png using Guid(f0e5750071221f64285d55ce8fb67296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96c06362e4b4b661b14bca3618a64988') in 0.019384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/3D/FujitoWork/08_other/Fukidashi/e1440_1.png
+  artifactKey: Guid(a7cefaeed908a6243b66ee1544df9b10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D/FujitoWork/08_other/Fukidashi/e1440_1.png using Guid(a7cefaeed908a6243b66ee1544df9b10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3da803f856aa42bc100e62de4ebb62e2') in 0.019365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/STYLY_Plugin/STYLY_ImmersalUI/Animations/ImageFinderCircle.anim
+  artifactKey: Guid(539862832f512ab4e9d70c3a16e8d44f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_ImmersalUI/Animations/ImageFinderCircle.anim using Guid(539862832f512ab4e9d70c3a16e8d44f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '926f3dbf509b73670e9914348e52be68') in 0.020402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UniGLTF/UniJSON/Scripts/StringSegment.cs
+  artifactKey: Guid(50bb40bf57fb1574b98b811e4f3a1598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/UniJSON/Scripts/StringSegment.cs using Guid(50bb40bf57fb1574b98b811e4f3a1598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8f45b27adeb2fc76c2ac49f7d7e568d') in 0.013934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UniGLTF/UniJSON/Scripts/IFileSystemAccessor.cs
+  artifactKey: Guid(865a0727ffe095a40abbb2b8d799e720) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/UniJSON/Scripts/IFileSystemAccessor.cs using Guid(865a0727ffe095a40abbb2b8d799e720) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c29bbd7f6b1781cc3b0f0cd7b688f4b') in 0.011850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/STYLY_Plugin/ThirdParty/azcopy/ThirdPartyNotice.txt
+  artifactKey: Guid(ed01e28455b9b1440a4fb2e6bc3e0dcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/ThirdParty/azcopy/ThirdPartyNotice.txt using Guid(ed01e28455b9b1440a4fb2e6bc3e0dcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1e4909c60e665178ca4a4b20249a3478') in 0.017688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Editor/Watermarks/Upload.png
+  artifactKey: Guid(816c57d588a2ae143a0e1f9e5029eadb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Watermarks/Upload.png using Guid(816c57d588a2ae143a0e1f9e5029eadb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46348c3e0091958950749afdabc49f08') in 0.018428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UniGLTF/DepthFirstScheduler/Scheduler/CurrentThreadScheduler.cs
+  artifactKey: Guid(21979cc7137a17d4ea8b6202381a02d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/DepthFirstScheduler/Scheduler/CurrentThreadScheduler.cs using Guid(21979cc7137a17d4ea8b6202381a02d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70585e008bbcbedd9436d14a1f514b91') in 0.010774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/STYLY_Plugin/Scripts/Editor/PluginUpdateNotifierSettings.cs
+  artifactKey: Guid(73116be96c8e03b4ea9826f213351eca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/Scripts/Editor/PluginUpdateNotifierSettings.cs using Guid(73116be96c8e03b4ea9826f213351eca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1ec6466d240715e7141ba72a6248117') in 0.014012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/STYLY_Plugin/STYLY_Playmaker_CustomActions/StylyService/IStylyServiceVideoImpl.cs
+  artifactKey: Guid(c9bc13fda226ceb428600fb6d0a64206) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_Playmaker_CustomActions/StylyService/IStylyServiceVideoImpl.cs using Guid(c9bc13fda226ceb428600fb6d0a64206) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd75c56d0f0f20ecb625fc2b56d7b01d5') in 0.011722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Editor/Resources/linkForums@2x.png
+  artifactKey: Guid(f716b62d5869cbb4dbffc8f8cd64bf9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Resources/linkForums@2x.png using Guid(f716b62d5869cbb4dbffc8f8cd64bf9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e39cf488cdfffb904d7207d6dab53c8') in 0.024292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UniGLTF/UniHumanoid/doc/BoneMappingInspector.png
+  artifactKey: Guid(1e5ed0d1eaae21c46b59beeeb761a357) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/UniHumanoid/doc/BoneMappingInspector.png using Guid(1e5ed0d1eaae21c46b59beeeb761a357) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7e4131f253b69c12056d7b51051a455c') in 0.016639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.076083 seconds.
+  path: Assets/3D/FujitoWork/Toon/Shader/UCTS_ShadowCaster.cginc
+  artifactKey: Guid(ae8d06deb98501947846000ba6cd3ab2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D/FujitoWork/Toon/Shader/UCTS_ShadowCaster.cginc using Guid(ae8d06deb98501947846000ba6cd3ab2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c9b79b9888fd785dbf77e4b768f21450') in 0.012500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/STYLY_Plugin/STYLY_MaintenanceTool/Scripts/Runtime/CommonUtility.cs
+  artifactKey: Guid(f0c781f731bdb7943a95da7c5214be22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_MaintenanceTool/Scripts/Runtime/CommonUtility.cs using Guid(f0c781f731bdb7943a95da7c5214be22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42da733d0adf165fbe9c1cae6c7c62d3') in 0.018590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/STYLY_Plugin/STYLY_Playmaker_CustomActions/CustomActions/Release/IsMobileVR.cs
+  artifactKey: Guid(e2543ca6073674aad9c85690bd663b50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_Playmaker_CustomActions/CustomActions/Release/IsMobileVR.cs using Guid(e2543ca6073674aad9c85690bd663b50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cbe64f4ddec87ffb39a8c3dbb1769859') in 0.016949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/STYLY_Plugin/STYLY_InteractionSDK/Simulator/DummyImpls/DummyDraggable.cs
+  artifactKey: Guid(c048a293122e94d4689cc8226d82019b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_InteractionSDK/Simulator/DummyImpls/DummyDraggable.cs using Guid(c048a293122e94d4689cc8226d82019b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8deba5efebd36c80c7e51d48a7b1df7') in 0.015572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/Tween/Editor/TweenPositionEditor.cs
+  artifactKey: Guid(4392c56712c8c7347a7dba46e64ab5f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Tween/Editor/TweenPositionEditor.cs using Guid(4392c56712c8c7347a7dba46e64ab5f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd05c56263971cffe969f0ea63c27a559') in 0.016891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UniGLTF/UniJSON/Scripts/Extensions/EnumExtensions.cs
+  artifactKey: Guid(d8691eccccb3e214db8bc5b86179f428) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/UniJSON/Scripts/Extensions/EnumExtensions.cs using Guid(d8691eccccb3e214db8bc5b86179f428) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aab1f901148501b86634ceff89653504') in 0.012954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/UI/Components/PlayMakerUiDragEvents.cs
+  artifactKey: Guid(f5852a05bb629f0408184a66468703be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/UI/Components/PlayMakerUiDragEvents.cs using Guid(f5852a05bb629f0408184a66468703be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '158c6d8c8a0048b3c33c8bdfb4dfb774') in 0.014316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/STYLY_Plugin/STYLY_MaintenanceTool/LocalPreviewTool/Editor/LocalPreviewTool.Editor.asmdef
+  artifactKey: Guid(79ea1c2ff7c205a48ab38338cf35935d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_MaintenanceTool/LocalPreviewTool/Editor/LocalPreviewTool.Editor.asmdef using Guid(79ea1c2ff7c205a48ab38338cf35935d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93db76fa2d73deac46e8e5535c5982f1') in 0.018602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/Animator/Editor/GetAnimatorPivotActionEditor.cs
+  artifactKey: Guid(da454073bf02d49d48a28cb6ce4c0fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Animator/Editor/GetAnimatorPivotActionEditor.cs using Guid(da454073bf02d49d48a28cb6ce4c0fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51dba4ec0d20494ba5382c627f24d09e') in 0.013236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/Tween/Editor/TweenPunchEditor.cs
+  artifactKey: Guid(ae0a54dc56595eb4a9116a2415ea22f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Tween/Editor/TweenPunchEditor.cs using Guid(ae0a54dc56595eb4a9116a2415ea22f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef834e3671380439fe1895b742134ad4') in 0.012144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/UI/Canvas/UiCanvasScalerGetScaleFactor.cs
+  artifactKey: Guid(37ab34ad613f6074888e26dcf982de22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/UI/Canvas/UiCanvasScalerGetScaleFactor.cs using Guid(37ab34ad613f6074888e26dcf982de22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1af3e6601ca75a57b79e39809da6c0b8') in 0.014050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UniGLTF/Core/Scripts/Editor/gltfAssetPostprocessor.cs
+  artifactKey: Guid(7bbb264b34e75dd438622e1f29f0f46c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/Core/Scripts/Editor/gltfAssetPostprocessor.cs using Guid(7bbb264b34e75dd438622e1f29f0f46c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cab36f5f27e94a42ec4f76b676facd09') in 0.015674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/UniGLTF/Core/Scripts/Editor/ImporterMenu.cs
+  artifactKey: Guid(ae2833922b06981439883d1e924b4cd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/Core/Scripts/Editor/ImporterMenu.cs using Guid(ae2833922b06981439883d1e924b4cd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '089d750da1741590e01da82d9c99b478') in 0.014068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/UI/EventSystem/UiOnMoveEvent.cs
+  artifactKey: Guid(c97082f6a6b131649afaed788cc30a2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/UI/EventSystem/UiOnMoveEvent.cs using Guid(c97082f6a6b131649afaed788cc30a2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed36ee548f462de61ab38808ed4878b0') in 0.012021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UniGLTF/Core/Scripts/Extensions/glTFExtensions.cs
+  artifactKey: Guid(870cb47398900534994d90eb1cecace8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/Core/Scripts/Extensions/glTFExtensions.cs using Guid(870cb47398900534994d90eb1cecace8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0bcb9d9a2d9be19b74c8bca55053dc1d') in 0.015119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PlayMaker/Actions/MathExpression/Mathos/MathosLicense.txt
+  artifactKey: Guid(37a6a5d212202f14cb3a5711601e6ff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/MathExpression/Mathos/MathosLicense.txt using Guid(37a6a5d212202f14cb3a5711601e6ff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1e6e6793842f4c6ed1355e853b916458') in 0.015237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PlayMaker/Actions/UI/Layout/UiLayoutElementSetValues.cs
+  artifactKey: Guid(c017409414023604b94c611bfdef60e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/UI/Layout/UiLayoutElementSetValues.cs using Guid(c017409414023604b94c611bfdef60e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8bcdd814f70a4098d7109c3a52c416a7') in 0.014827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UniGLTF/UniJSON/Scripts/MsgPack/Exceptions.cs
+  artifactKey: Guid(bc09dae63ba521545a0b9a8ef120b95a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/UniJSON/Scripts/MsgPack/Exceptions.cs using Guid(bc09dae63ba521545a0b9a8ef120b95a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '31219659ddee837c45f4736d65624d6c') in 0.012117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/UI/EventSystem/UiOnPointerExitEvent.cs
+  artifactKey: Guid(36b53f81d354abb4ba8236e5624a37d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/UI/EventSystem/UiOnPointerExitEvent.cs using Guid(36b53f81d354abb4ba8236e5624a37d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '614c0c77ebf97915ad6631ca1a237263') in 0.012464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/StateMachine/Editor/BlockEventsEditor.cs
+  artifactKey: Guid(52073140ea7b8a04eacb395a69f9ab72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/StateMachine/Editor/BlockEventsEditor.cs using Guid(52073140ea7b8a04eacb395a69f9ab72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '834e9f45665058185452d5137eaa42be') in 0.013452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/STYLY_Plugin/STYLY_MaintenanceTool/Scripts/Editor/StylyAnalytics/GoogleAnalyticsClient.cs
+  artifactKey: Guid(81a44997e5370a2438a1bf6b2555549f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_MaintenanceTool/Scripts/Editor/StylyAnalytics/GoogleAnalyticsClient.cs using Guid(81a44997e5370a2438a1bf6b2555549f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e07af013e683df6d1564f367eec2e3d') in 0.012385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/STYLY_Plugin/STYLY_InteractionSDK/Runtime/BindSystem/BindSystem.asmdef
+  artifactKey: Guid(356ad96ed1f45a64894cd9818fd081f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_InteractionSDK/Runtime/BindSystem/BindSystem.asmdef using Guid(356ad96ed1f45a64894cd9818fd081f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '884f3637392945d67df68e9fae17f257') in 0.017629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UniGLTF/Core/Scripts/IO/TextureItem.cs
+  artifactKey: Guid(09cdeb503b1e8234faf528b6ae134e7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/Core/Scripts/IO/TextureItem.cs using Guid(09cdeb503b1e8234faf528b6ae134e7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18e97d6905209302b723cac20b6c393e') in 0.015156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/STYLY_Plugin/STYLY_Playmaker_CustomActions/CustomActions/Release/InitAudioSpectrum.cs
+  artifactKey: Guid(7832726fc804bd94296557cf7dee03aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_Playmaker_CustomActions/CustomActions/Release/InitAudioSpectrum.cs using Guid(7832726fc804bd94296557cf7dee03aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '088e331a52de2f0d11c478f1cbb50f31') in 0.013578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UniGLTF/UniJSON/Scripts/Extensions/ByteExtensions.cs
+  artifactKey: Guid(aa32ad3ea4c1ec540a03225c0d520af9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/UniJSON/Scripts/Extensions/ByteExtensions.cs using Guid(aa32ad3ea4c1ec540a03225c0d520af9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '68a0e79b6837b17ca74fe764e55e004c') in 0.012956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UniGLTF/UniJSON/Scripts/Json/JsonValue.cs
+  artifactKey: Guid(0b59a66ed8e7b1c419d69f7ee07900c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/UniJSON/Scripts/Json/JsonValue.cs using Guid(0b59a66ed8e7b1c419d69f7ee07900c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc8376de4bffadc5f142192447b3d428') in 0.017761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/UniGLTF/Core/Scripts/Format/glTFTexture.cs
+  artifactKey: Guid(5eabe858953de424787a21d633fedda0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/Core/Scripts/Format/glTFTexture.cs using Guid(5eabe858953de424787a21d633fedda0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f37659a350277757a209b24e39540af') in 0.015848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/STYLY_Plugin/STYLY_Playmaker_CustomActions/StylyService/DummyImpls/DummyGLTFLoadImpl.cs
+  artifactKey: Guid(430a084bdcbbcf84481854ad132d8f62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_Playmaker_CustomActions/StylyService/DummyImpls/DummyGLTFLoadImpl.cs using Guid(430a084bdcbbcf84481854ad132d8f62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8bae55902af103950d4cd199bf5e13dd') in 0.013429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PlayMaker/Actions/Tween/Editor/TweenUiSizeEditor.cs
+  artifactKey: Guid(f6bc60abd8a49e1489e1f32292cf3097) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Tween/Editor/TweenUiSizeEditor.cs using Guid(f6bc60abd8a49e1489e1f32292cf3097) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aaa30e6516c6d6b5259e1930e0597f7a') in 0.015622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PlayMaker/Actions/UI/EventSystem/UiEventSystemCurrentRayCastAll.cs
+  artifactKey: Guid(7f085bc9ea10695479eb81676f09956c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/UI/EventSystem/UiEventSystemCurrentRayCastAll.cs using Guid(7f085bc9ea10695479eb81676f09956c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd119a8689066e8583720e82cdea6dc5') in 0.015854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/UI/EventSystem/UiOnDeselectEvent.cs
+  artifactKey: Guid(230a54f63cb10a941aeb5e50f93d4e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/UI/EventSystem/UiOnDeselectEvent.cs using Guid(230a54f63cb10a941aeb5e50f93d4e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'afeb6c82e15b9905cc22256a3210a50b') in 0.013137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/STYLY_Plugin/STYLY_MaintenanceTool/LocalPreviewTool/Editor/StylyAnalyticsForLocalPreviewTool.cs
+  artifactKey: Guid(c6c0702f22f305e4998bd2e92acf818e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_MaintenanceTool/LocalPreviewTool/Editor/StylyAnalyticsForLocalPreviewTool.cs using Guid(c6c0702f22f305e4998bd2e92acf818e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f40e62b9345629be687a5d098be129e2') in 0.011062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/STYLY_Plugin/STYLY_InteractionSDK/Runtime/FeatureComponents/Components/STYLY_Attr_Breaker.cs
+  artifactKey: Guid(5cd021524485e754f863c7dbda856148) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_InteractionSDK/Runtime/FeatureComponents/Components/STYLY_Attr_Breaker.cs using Guid(5cd021524485e754f863c7dbda856148) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a11c15aac7cbd6ba056d63b4787b6d58') in 0.015571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PlayMaker/Actions/Quaternion/Editor/QuaternionLookRotationCustomEditor.cs
+  artifactKey: Guid(648f82c14055f4d71936cfb3c0306ee5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Quaternion/Editor/QuaternionLookRotationCustomEditor.cs using Guid(648f82c14055f4d71936cfb3c0306ee5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e157220b5f38e0bbb85f6d1e718d8d01') in 0.015796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/UniGLTF/UniJSON/Editor/Tests/MsgPack/BooleanTest.cs
+  artifactKey: Guid(d0f19e48b365cd446982ed0b7ba6251e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/UniJSON/Editor/Tests/MsgPack/BooleanTest.cs using Guid(d0f19e48b365cd446982ed0b7ba6251e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e977058407e02c3c0a38e318e2e93f54') in 0.013591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UniGLTF/Core/Scripts/IO/ShaderStore.cs
+  artifactKey: Guid(75aae8e866422d24180458afaacb2c1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/Core/Scripts/IO/ShaderStore.cs using Guid(75aae8e866422d24180458afaacb2c1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '731a86645193a35f8cde4f270830ae8b') in 0.013930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/Quaternion/Editor/QuaternionAngleAxisCustomEditor.cs
+  artifactKey: Guid(e5cf62fd8a18e40bf98c7088582e1118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Quaternion/Editor/QuaternionAngleAxisCustomEditor.cs using Guid(e5cf62fd8a18e40bf98c7088582e1118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a68077758bc25a0f04ddb901b41c5cde') in 0.013001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/STYLY_Plugin/STYLY_InteractionSDK/Runtime/FeatureComponents/Components/STYLY_Attr_Breakable.cs
+  artifactKey: Guid(f9473a107b6254e488472bb2b6662fe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_InteractionSDK/Runtime/FeatureComponents/Components/STYLY_Attr_Breakable.cs using Guid(f9473a107b6254e488472bb2b6662fe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ccd28ad39ab003091710da242fa78fca') in 0.013017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UniGLTF/UniJSON/Scripts/Json/JsonSchema.cs
+  artifactKey: Guid(4d98ef4e469916e428284c9155f29059) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/UniJSON/Scripts/Json/JsonSchema.cs using Guid(4d98ef4e469916e428284c9155f29059) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec9845a338fa9890c892317ae7e0ef4d') in 0.011043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/STYLY_Plugin/STYLY_Playmaker_CustomActions/CustomActions/Release/Lib/RestrictHttpRequester.cs
+  artifactKey: Guid(759cdb351e4ffd94f99b5533653a7f00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_Playmaker_CustomActions/CustomActions/Release/Lib/RestrictHttpRequester.cs using Guid(759cdb351e4ffd94f99b5533653a7f00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26b1f56d4f2ab23cf09946bd6390b597') in 0.012162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/STYLY_Plugin/STYLY_InteractionSDK/Editor/FeatureComponents/FeatureComponents.Editor.asmdef
+  artifactKey: Guid(5ee7965e5f455f14a9ee486d6f0e4635) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_InteractionSDK/Editor/FeatureComponents/FeatureComponents.Editor.asmdef using Guid(5ee7965e5f455f14a9ee486d6f0e4635) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '450280472058cf115417127630391ae0') in 0.015236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/STYLY_Plugin/STYLY_Playmaker_CustomActions/StylyService/DummyImpls/DummyVideoPlayer/DummyVideoPlayer.cs
+  artifactKey: Guid(1431aab24cc14a04988e830ec760883a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_Playmaker_CustomActions/StylyService/DummyImpls/DummyVideoPlayer/DummyVideoPlayer.cs using Guid(1431aab24cc14a04988e830ec760883a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '300f0a53bbc191004d8e89fa855a242e') in 0.013310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Editor/Install/Resources/CheckActions.txt
+  artifactKey: Guid(109b2c835ffa51f4d8689a7716dd8afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Editor/Install/Resources/CheckActions.txt using Guid(109b2c835ffa51f4d8689a7716dd8afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d74664cf09a3140f53c1041defeaf92') in 0.015996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PlayMaker/Actions/Animator/Editor/GetAnimatorTargetActionEditor.cs
+  artifactKey: Guid(e6467d12fbec648acbfe19a0ba022a0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Animator/Editor/GetAnimatorTargetActionEditor.cs using Guid(e6467d12fbec648acbfe19a0ba022a0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73001596107473c9e3ae63ae8e29cfdb') in 0.015667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PlayMaker/Actions/Animator/BaseClasses/AnimatorFrameUpdateSelector.cs
+  artifactKey: Guid(18313b45aff604fdfae21005cba51867) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/Animator/BaseClasses/AnimatorFrameUpdateSelector.cs using Guid(18313b45aff604fdfae21005cba51867) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b334d205e01cad52f6462f785bdeccc') in 0.014407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UniGLTF/Core/Scripts/Format/glTFAnimation.cs
+  artifactKey: Guid(f571aa160b9de354c8f5fcc6a38e41f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/Core/Scripts/Format/glTFAnimation.cs using Guid(f571aa160b9de354c8f5fcc6a38e41f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '075c04e26778fff482fed8dda6aefb38') in 0.014189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/STYLY_Plugin/STYLY_MaintenanceTool/Scripts/Editor/StylyAnalytics/GoogleAnalyticsRequestParams.cs
+  artifactKey: Guid(ee6c03916e4f2674388ccaeb94293131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_MaintenanceTool/Scripts/Editor/StylyAnalytics/GoogleAnalyticsRequestParams.cs using Guid(ee6c03916e4f2674388ccaeb94293131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '38a2136f4ccbe205e1d7a95e167b22b3') in 0.013802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/STYLY_Plugin/STYLY_MaintenanceTool/Scripts/Editor/EnvConfig/EnvConfigParser.cs
+  artifactKey: Guid(3af550cbfa2035343b31cc637403b963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/STYLY_Plugin/STYLY_MaintenanceTool/Scripts/Editor/EnvConfig/EnvConfigParser.cs using Guid(3af550cbfa2035343b31cc637403b963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '79964f47a89ffca3abdaffcfbf5519ef') in 0.016836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UniGLTF/Core/Scripts/IO/AnimationCurveData.cs
+  artifactKey: Guid(1af21722605d44f58deebfcfca642b32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/Core/Scripts/IO/AnimationCurveData.cs using Guid(1af21722605d44f58deebfcfca642b32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '415dae0ec80cd0c1ef818ad58705c39b') in 0.011350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/UI/Components/PlayMakerUiClickEvent.cs
+  artifactKey: Guid(f9e95858e6f8c0844ad340be6bba1f26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/UI/Components/PlayMakerUiClickEvent.cs using Guid(f9e95858e6f8c0844ad340be6bba1f26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4674cf50d272e753657826e81c262f66') in 0.013199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UniGLTF/UniJSON/Scripts/JsonSchemaValidator/JsonStringValidator.cs
+  artifactKey: Guid(0256cc9f46a4e6744826cf5ca0aa1b46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniGLTF/UniJSON/Scripts/JsonSchemaValidator/JsonStringValidator.cs using Guid(0256cc9f46a4e6744826cf5ca0aa1b46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8274fcd1199c0443b1f3b401f846b1a3') in 0.012141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PlayMaker/Actions/UI/EventSystem/EventTriggerActionBase.cs
+  artifactKey: Guid(fbbffd4df9ca084458cef9f29b6d942a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/UI/EventSystem/EventTriggerActionBase.cs using Guid(fbbffd4df9ca084458cef9f29b6d942a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ee9d1050291a763bdade4f3d4ac5468') in 0.013883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PlayMaker/Actions/SceneManager/Editor/GetScenePathCustomEditor.cs
+  artifactKey: Guid(4df77c150640c4ce6b6b0bcbfc332a67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayMaker/Actions/SceneManager/Editor/GetScenePathCustomEditor.cs using Guid(4df77c150640c4ce6b6b0bcbfc332a67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '16432f4843033e5341b2bb77a0e5efc3') in 0.011377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
