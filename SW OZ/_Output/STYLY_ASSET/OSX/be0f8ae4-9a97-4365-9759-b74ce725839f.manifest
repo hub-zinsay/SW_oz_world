@@ -1,0 +1,174 @@
+ManifestFileVersion: 0
+CRC: 1299441572
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 13bde8c5545757c362691147dd9d0c74
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 16727cc8dbface70b627d42c5e7a1918
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 13bde8c5545757c362691147dd9d0c74
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bf9847cedafab664799b9a2ea375098a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d21dcc2386d650c4597f3633c75a1f98, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 21bf7f712d84d26478ebe6a299f21738, type: 3}
+- Class: 114
+  Script: {fileID: 1219815696, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fde0d25a170598d46a0b9dc16b4527a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 320
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.ActionData
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.Fsm
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.Fsm/EditorFlags
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmAnimationCurve
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmArray
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmBool
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmColor
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmEnum
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmEvent
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmEventTarget
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmFloat
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmGameObject
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmInt
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmMaterial
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmObject
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmOwnerDefault
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmProperty
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmQuaternion
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmRect
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmState
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmString
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmTexture
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmTransition
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmVariables
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmVector2
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.FsmVector3
+- AssemblyName: PlayMaker
+  ClassName: HutongGames.PlayMaker.UiEvents
+- AssemblyName: Unity.Timeline
+  ClassName: UnityEngine.Timeline.MarkerList
+- AssemblyName: Unity.Timeline
+  ClassName: UnityEngine.Timeline.TimelineAsset/EditorSettings
+- AssemblyName: Unity.Timeline
+  ClassName: UnityEngine.Timeline.TimelineClip
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.ArgumentCache
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentListenerMode
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+Assets:
+- Assets/3D/FujitoWork/01_Prefab/be0f8ae4-9a97-4365-9759-b74ce725839f.prefab
+Dependencies: []
