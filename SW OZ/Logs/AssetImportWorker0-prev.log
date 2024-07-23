@@ -15,7 +15,7 @@ D:/Unity/SW_github/SW_OZ_ver2/SW OZ
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62133
+50848
 Successfully changed project path to: D:/Unity/SW_github/SW_OZ_ver2/SW OZ
 D:/Unity/SW_github/SW_OZ_ver2/SW OZ
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Unity/SW_github/SW_OZ_ver2/SW OZ
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [56544] Host "[IP] 192.168.11.16 [Port] 0 [Flags] 2 [Guid] 366860702 [EditorId] 366860702 [Version] 1048832 [Id] WindowsEditor(7,M_F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26888] Host "[IP] 192.168.11.16 [Port] 0 [Flags] 2 [Guid] 2532689702 [EditorId] 2532689702 [Version] 1048832 [Id] WindowsEditor(7,M_F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [56544] Host "[IP] 192.168.11.16 [Port] 0 [Flags] 2 [Guid] 366860702 [EditorId] 366860702 [Version] 1048832 [Id] WindowsEditor(7,M_F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26888] Host "[IP] 192.168.11.16 [Port] 0 [Flags] 2 [Guid] 2532689702 [EditorId] 2532689702 [Version] 1048832 [Id] WindowsEditor(7,M_F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
-Refreshing native plugins compatible for Editor in 6.37 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.10 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.24f1 (334eb2a0b267)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -72,7 +72,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -80,8 +80,8 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008880 seconds.
-- Loaded All Assemblies, in  0.222 seconds
+Registered in 0.008352 seconds.
+- Loaded All Assemblies, in  0.402 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
@@ -90,36 +90,36 @@ Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.187 seconds
-Domain Reload Profiling: 408ms
-	BeginReloadAssembly (73ms)
+- Finished resetting the current domain, in  0.220 seconds
+Domain Reload Profiling: 622ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (86ms)
-		LoadAssemblies (73ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (143ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (84ms)
-			TypeCache.Refresh (83ms)
-				TypeCache.ScanAssembly (74ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (153ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (188ms)
+	FinalizeReload (221ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (155ms)
+		SetupLoadedEditorAssemblies (186ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (59ms)
+			InitializePlatformSupportModulesInManaged (73ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (66ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
+			ProcessInitializeOnLoadAttributes (77ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -127,8 +127,8 @@ Domain Reload Profiling: 408ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.599 seconds
-Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.664 seconds
+Refreshing native plugins compatible for Editor in 2.47 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -139,36 +139,36 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.357 seconds
-Domain Reload Profiling: 953ms
-	BeginReloadAssembly (88ms)
+- Finished resetting the current domain, in  0.345 seconds
+Domain Reload Profiling: 1007ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (19ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (457ms)
-		LoadAssemblies (438ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (497ms)
+		LoadAssemblies (494ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (72ms)
-			TypeCache.Refresh (60ms)
+		AnalyzeDomain (74ms)
+			TypeCache.Refresh (61ms)
 				TypeCache.ScanAssembly (50ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (358ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (345ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (266ms)
+		SetupLoadedEditorAssemblies (261ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
+			InitializePlatformSupportModulesInManaged (24ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (171ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -176,13 +176,13 @@ Domain Reload Profiling: 953ms
 Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
 Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
 Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.87 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2958 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (62.3 KB). Loaded Objects now: 3527.
-Memory consumption went from 139.8 MB to 139.7 MB.
-Total: 1.804900 ms (FindLiveObjects: 0.138900 ms CreateObjectMapping: 0.037100 ms MarkObjects: 1.536300 ms  DeleteObjects: 0.091900 ms)
+Unloading 49 unused Assets / (62.4 KB). Loaded Objects now: 3527.
+Memory consumption went from 139.8 MB to 139.8 MB.
+Total: 1.900300 ms (FindLiveObjects: 0.161100 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.612800 ms  DeleteObjects: 0.083400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -200,49 +200,289 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 411214.348116 seconds.
-  path: Assets/3D/FujitoWork/02_model(mesh)/mob1.fbx
-  artifactKey: Guid(9335ba5775598904ca83ffc87a255a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/02_model(mesh)/mob1.fbx using Guid(9335ba5775598904ca83ffc87a255a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47ea59fa5ffda69cd2aa4551ff1bbd9') in 0.121339 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 11.785846 seconds.
-  path: Assets/Scenes/SampleScene2.unity
-  artifactKey: Guid(2dd30311c11de1a4fa13de3afbe06494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene2.unity using Guid(2dd30311c11de1a4fa13de3afbe06494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9002937cc158a8a6855829b1522ea206') in 0.000516 seconds
+  Time since last request: 417588.534229 seconds.
+  path: Assets/3D/FujitoWork/04_material/M_mob
+  artifactKey: Guid(89fb16ae7f1dec74c8bbfba40af0eed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/04_material/M_mob using Guid(89fb16ae7f1dec74c8bbfba40af0eed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b0f92ba3fbb71d4a5c0b767885e864') in 0.002321 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2511.415886 seconds.
-  path: Assets/3D/FujitoWork/02_model(mesh)/mob2.fbx
-  artifactKey: Guid(0a6f10e6be18cd84a9b27a2f528be826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/02_model(mesh)/mob2.fbx using Guid(0a6f10e6be18cd84a9b27a2f528be826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb33dff2064f05cbb7b9e4dc44fb1ff') in 0.089621 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 22.177964 seconds.
-  path: Assets/3D/FujitoWork/02_model(mesh)/mob3.fbx
-  artifactKey: Guid(80c42f08e2c5db444a523a1b111146bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/02_model(mesh)/mob3.fbx using Guid(80c42f08e2c5db444a523a1b111146bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42edde863b98f44ef1cab6edf77333d4') in 0.086235 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 5.065979 seconds.
-  path: Assets/3D/FujitoWork/02_model(mesh)/mob6.fbx
-  artifactKey: Guid(32b7950243fde6b44bebbc84f1dcc0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/02_model(mesh)/mob6.fbx using Guid(32b7950243fde6b44bebbc84f1dcc0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05c00c4e4657ad8259f62e7782029d4') in 0.111566 seconds
+  Time since last request: 21.573948 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob1.fbx
+  artifactKey: Guid(9335ba5775598904ca83ffc87a255a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob1.fbx using Guid(9335ba5775598904ca83ffc87a255a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b46027743d74fe34b5643efed1306d1') in 0.180056 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 40
 ========================================================================
 Received Import Request.
-  Time since last request: 18.520184 seconds.
+  Time since last request: 13.152857 seconds.
+  path: Assets/3D/FujitoWork/04_material/M_mob1
+  artifactKey: Guid(89fb16ae7f1dec74c8bbfba40af0eed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/04_material/M_mob1 using Guid(89fb16ae7f1dec74c8bbfba40af0eed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fc207c06d9046da6fdc2f866f7fc08') in 0.000384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.721057 seconds.
+  path: Assets/3D/FujitoWork/04_material/M_mob2
+  artifactKey: Guid(93288422dec53dd4ba5a764ae9ec80e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/04_material/M_mob2 using Guid(93288422dec53dd4ba5a764ae9ec80e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0951d00f6731e203d47037a43405e9') in 0.000339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.995815 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob2.fbx
+  artifactKey: Guid(0a6f10e6be18cd84a9b27a2f528be826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob2.fbx using Guid(0a6f10e6be18cd84a9b27a2f528be826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ee5914b81e557403694979f7fd8316') in 0.081140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 9.181147 seconds.
+  path: Assets/3D/FujitoWork/04_material/New Folder
+  artifactKey: Guid(d7306897d5f0c6744ae1c926d1a3610e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/04_material/New Folder using Guid(d7306897d5f0c6744ae1c926d1a3610e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144172ba862ba18dffa4609e4a9e0b12') in 0.000394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.758309 seconds.
+  path: Assets/3D/FujitoWork/04_material/M_mob3
+  artifactKey: Guid(d7306897d5f0c6744ae1c926d1a3610e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/04_material/M_mob3 using Guid(d7306897d5f0c6744ae1c926d1a3610e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014a7b2322c9879114dafff06003370f') in 0.000350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.877002 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob3.fbx
+  artifactKey: Guid(80c42f08e2c5db444a523a1b111146bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob3.fbx using Guid(80c42f08e2c5db444a523a1b111146bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d1273433054598e64c4119bf8e768c') in 0.099771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 1.201426 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob4.fbx
+  artifactKey: Guid(3782a213a34ea2c4294eff1c799593e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob4.fbx using Guid(3782a213a34ea2c4294eff1c799593e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1950f460c79bb850ae8171e0b657f25f') in 0.156590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 11.054093 seconds.
+  path: Assets/3D/FujitoWork/04_material/M_mob4
+  artifactKey: Guid(02808cc70d87a6647a39282fc9e6b2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/04_material/M_mob4 using Guid(02808cc70d87a6647a39282fc9e6b2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d86b15213c63a0669987839abafe8e0') in 0.000391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.384299 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob4.fbx
+  artifactKey: Guid(3782a213a34ea2c4294eff1c799593e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob4.fbx using Guid(3782a213a34ea2c4294eff1c799593e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc98714d793decbe0a441cde7bb6e625') in 0.109776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 10.187141 seconds.
+  path: Assets/3D/FujitoWork/04_material/M_mob5
+  artifactKey: Guid(226db706bdb21aa42b16a675f96bca50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/04_material/M_mob5 using Guid(226db706bdb21aa42b16a675f96bca50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecda032b82e0d393493870cd81a8af33') in 0.000421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.284212 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob7.fbx
+  artifactKey: Guid(f94d7efa017736b4fa8f48091447c5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob7.fbx using Guid(f94d7efa017736b4fa8f48091447c5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5e3509904211c4d1033c3e3dc19d3f') in 0.140080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 7.430780 seconds.
+  path: Assets/3D/FujitoWork/04_material/M_mob6
+  artifactKey: Guid(226db706bdb21aa42b16a675f96bca50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/04_material/M_mob6 using Guid(226db706bdb21aa42b16a675f96bca50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e6c2c6865f1527a172b160d08094b8') in 0.000399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.290088 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob6.fbx
+  artifactKey: Guid(32b7950243fde6b44bebbc84f1dcc0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob6.fbx using Guid(32b7950243fde6b44bebbc84f1dcc0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06088fc23902b7c2379bdc1665324532') in 0.065637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 10.959377 seconds.
+  path: Assets/3D/FujitoWork/04_material/M_mob7
+  artifactKey: Guid(7a6ccdfbe2f078d45b62db119f98eabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/04_material/M_mob7 using Guid(7a6ccdfbe2f078d45b62db119f98eabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41cdc7253c221f35c011695e9ce733d6') in 0.000437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.909128 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob7.fbx
+  artifactKey: Guid(f94d7efa017736b4fa8f48091447c5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob7.fbx using Guid(f94d7efa017736b4fa8f48091447c5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80ed24afb23412e59b0bc5a976fd8dd') in 0.063137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 14.217871 seconds.
+  path: Assets/3D/FujitoWork/04_material/M_star
+  artifactKey: Guid(0816a3748ae0baa488b06f9363e4ee24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/04_material/M_star using Guid(0816a3748ae0baa488b06f9363e4ee24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24ae31b36c8ea6a4e82debc7f9d852a') in 0.000390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.292079 seconds.
   path: Assets/3D/FujitoWork/02_model(mesh)/star.fbx
   artifactKey: Guid(3db222d0c3258b9439759c658d72768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/02_model(mesh)/star.fbx using Guid(3db222d0c3258b9439759c658d72768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51ab556a2cf289a47f6bfb143f4cfa0') in 0.039192 seconds
+Start importing Assets/3D/FujitoWork/02_model(mesh)/star.fbx using Guid(3db222d0c3258b9439759c658d72768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c922779ffa164d0bc61b7680c50a3e1') in 0.030422 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 1983.529563 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob2.fbx
+  artifactKey: Guid(0a6f10e6be18cd84a9b27a2f528be826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob2.fbx using Guid(0a6f10e6be18cd84a9b27a2f528be826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c03c7cb038d09becba9a93c079ec82d') in 0.150315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 7.911813 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob2.fbx
+  artifactKey: Guid(0a6f10e6be18cd84a9b27a2f528be826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob2.fbx using Guid(0a6f10e6be18cd84a9b27a2f528be826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e887a7048e8568a54b24802a6e2b8a') in 0.040665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 161.834212 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob3.fbx
+  artifactKey: Guid(80c42f08e2c5db444a523a1b111146bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob3.fbx using Guid(80c42f08e2c5db444a523a1b111146bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4d38256c00d35c1719f34cf102c3ec') in 0.065994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 8.321218 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob3.fbx
+  artifactKey: Guid(80c42f08e2c5db444a523a1b111146bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob3.fbx using Guid(80c42f08e2c5db444a523a1b111146bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ef1cbdb4659190c91ab1cc61e99722') in 0.039609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 1007.346485 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob4.fbx
+  artifactKey: Guid(3782a213a34ea2c4294eff1c799593e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob4.fbx using Guid(3782a213a34ea2c4294eff1c799593e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29002a908e53b20b7792269fa82288c') in 0.157234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 8.363566 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob4.fbx
+  artifactKey: Guid(3782a213a34ea2c4294eff1c799593e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob4.fbx using Guid(3782a213a34ea2c4294eff1c799593e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768bcf89d161738c549bfa8a05635dbc') in 0.085755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 436.018598 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob6.fbx
+  artifactKey: Guid(32b7950243fde6b44bebbc84f1dcc0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob6.fbx using Guid(32b7950243fde6b44bebbc84f1dcc0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304b807ffebf602041d99b3d6c24806e') in 0.095413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 6.376902 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob6.fbx
+  artifactKey: Guid(32b7950243fde6b44bebbc84f1dcc0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob6.fbx using Guid(32b7950243fde6b44bebbc84f1dcc0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9f8df0c06c87a9b00563c29586b7d1') in 0.088448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 392.934419 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob7.fbx
+  artifactKey: Guid(f94d7efa017736b4fa8f48091447c5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob7.fbx using Guid(f94d7efa017736b4fa8f48091447c5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5044230b7376892bd5c23a87a2466d9') in 0.115150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 10.161253 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob7.fbx
+  artifactKey: Guid(f94d7efa017736b4fa8f48091447c5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob7.fbx using Guid(f94d7efa017736b4fa8f48091447c5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0ddae1709c6f6377c125cfd7ba42a6') in 0.038649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 302.031700 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/star.fbx
+  artifactKey: Guid(3db222d0c3258b9439759c658d72768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/star.fbx using Guid(3db222d0c3258b9439759c658d72768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4e770dc3e3d70f8c21152ef14c84e2') in 0.081598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 6.766365 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/star.fbx
+  artifactKey: Guid(3db222d0c3258b9439759c658d72768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/star.fbx using Guid(3db222d0c3258b9439759c658d72768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6b699f6145077723f1845127ecc792') in 0.037161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 202.601686 seconds.
+  path: Assets/3D/FujitoWork/08_other/immersal
+  artifactKey: Guid(59d50778f248062469baa01e928f3d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/08_other/immersal using Guid(59d50778f248062469baa01e928f3d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93addd364d522ef0dc71f0a48089ad13') in 0.000695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 42.721477 seconds.
+  path: Assets/3D/FujitoWork/08_other/bite
+  artifactKey: Guid(e307e64b6252ac3449db220ea860d5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/08_other/bite using Guid(e307e64b6252ac3449db220ea860d5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a018828b4f574fa8d3631c426b534a8b') in 0.000389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.539798 seconds.
+  path: Assets/3D/FujitoWork/08_other/prefabs
+  artifactKey: Guid(83ea7af7d5e214845814b3175472a37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/08_other/prefabs using Guid(83ea7af7d5e214845814b3175472a37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005bb191474cccb65df1789dc5716d30') in 0.000362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.098879 seconds.
+  path: Assets/3D/FujitoWork/08_other/prefabs/Immersal_timemachine Variant.prefab
+  artifactKey: Guid(4e0f6a65769627f46b58d813c8a95428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/08_other/prefabs/Immersal_timemachine Variant.prefab using Guid(4e0f6a65769627f46b58d813c8a95428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbb8822f607c285aff2a0f7757aaa16') in 0.058644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 573
+========================================================================
+Received Import Request.
+  Time since last request: 93.255709 seconds.
+  path: Assets/3D/FujitoWork/08_other/prefabs/104795-Test-tex.prefab
+  artifactKey: Guid(0919d7a85458a5f41bd4494e32c923de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/08_other/prefabs/104795-Test-tex.prefab using Guid(0919d7a85458a5f41bd4494e32c923de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d44224c1eea743709298205e0ca99aa') in 0.139601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
