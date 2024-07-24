@@ -15,7 +15,7 @@ D:/Unity/SW_github/SW_OZ_ver2/SW OZ
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58049
+50941
 Successfully changed project path to: D:/Unity/SW_github/SW_OZ_ver2/SW OZ
 D:/Unity/SW_github/SW_OZ_ver2/SW OZ
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Unity/SW_github/SW_OZ_ver2/SW OZ
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27520] Host "[IP] 192.168.11.16 [Port] 0 [Flags] 2 [Guid] 2575247249 [EditorId] 2575247249 [Version] 1048832 [Id] WindowsEditor(7,M_F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [37376] Host "[IP] 192.168.11.16 [Port] 0 [Flags] 2 [Guid] 1419935823 [EditorId] 1419935823 [Version] 1048832 [Id] WindowsEditor(7,M_F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [27520] Host "[IP] 192.168.11.16 [Port] 0 [Flags] 2 [Guid] 2575247249 [EditorId] 2575247249 [Version] 1048832 [Id] WindowsEditor(7,M_F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [37376] Host "[IP] 192.168.11.16 [Port] 0 [Flags] 2 [Guid] 1419935823 [EditorId] 1419935823 [Version] 1048832 [Id] WindowsEditor(7,M_F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
-Refreshing native plugins compatible for Editor in 7.75 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1626.58 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.24f1 (334eb2a0b267)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -72,7 +72,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -80,8 +80,8 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007663 seconds.
-- Loaded All Assemblies, in  0.213 seconds
+Registered in 0.406793 seconds.
+- Loaded All Assemblies, in  5.522 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
@@ -90,35 +90,35 @@ Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.186 seconds
-Domain Reload Profiling: 398ms
-	BeginReloadAssembly (60ms)
+- Finished resetting the current domain, in  0.397 seconds
+Domain Reload Profiling: 5918ms
+	BeginReloadAssembly (3621ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (90ms)
-		LoadAssemblies (60ms)
+	RebuildCommonClasses (303ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (434ms)
+	LoadAllAssembliesAndSetupDomain (1157ms)
+		LoadAssemblies (3621ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (88ms)
-			TypeCache.Refresh (87ms)
-				TypeCache.ScanAssembly (79ms)
+		AnalyzeDomain (1155ms)
+			TypeCache.Refresh (1155ms)
+				TypeCache.ScanAssembly (948ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (186ms)
+	FinalizeReload (397ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (154ms)
+		SetupLoadedEditorAssemblies (367ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (59ms)
+			InitializePlatformSupportModulesInManaged (273ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (66ms)
+			ProcessInitializeOnLoadAttributes (63ms)
 			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -127,8 +127,8 @@ Domain Reload Profiling: 398ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.540 seconds
-Refreshing native plugins compatible for Editor in 2.52 ms, found 4 plugins.
+- Loaded All Assemblies, in  4.767 seconds
+Refreshing native plugins compatible for Editor in 3.95 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -139,50 +139,50 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.324 seconds
-Domain Reload Profiling: 860ms
-	BeginReloadAssembly (86ms)
+- Finished resetting the current domain, in  0.336 seconds
+Domain Reload Profiling: 5101ms
+	BeginReloadAssembly (77ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (12ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (394ms)
-		LoadAssemblies (374ms)
+		CreateAndSetChildDomain (11ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (4640ms)
+		LoadAssemblies (4286ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (66ms)
-			TypeCache.Refresh (56ms)
-				TypeCache.ScanAssembly (46ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
+		AnalyzeDomain (399ms)
+			TypeCache.Refresh (390ms)
+				TypeCache.ScanAssembly (355ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (324ms)
+	FinalizeReload (337ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (245ms)
+		SetupLoadedEditorAssemblies (260ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
+			InitializePlatformSupportModulesInManaged (21ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (164ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
 Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.42 ms, found 4 plugins.
+Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2958 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2959 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 49 unused Assets / (62.4 KB). Loaded Objects now: 3528.
-Memory consumption went from 140.2 MB to 140.2 MB.
-Total: 3.499800 ms (FindLiveObjects: 0.175200 ms CreateObjectMapping: 0.059200 ms MarkObjects: 3.148800 ms  DeleteObjects: 0.115800 ms)
+Memory consumption went from 140.0 MB to 140.0 MB.
+Total: 2.151400 ms (FindLiveObjects: 0.123100 ms CreateObjectMapping: 0.034400 ms MarkObjects: 1.909300 ms  DeleteObjects: 0.083900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -200,1543 +200,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 422795.054714 seconds.
-  path: Assets/3D/FujitoWork/01_Prefab/Immersal_timemachine Variant.prefab
-  artifactKey: Guid(9c0541fcf4084d84996f6782c7ad1404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/01_Prefab/Immersal_timemachine Variant.prefab using Guid(9c0541fcf4084d84996f6782c7ad1404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9187fa736b7fb6913669d8682a9dba34') in 0.119312 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1164
-========================================================================
-Received Import Request.
-  Time since last request: 18.669920 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_star/Material.003.mat
-  artifactKey: Guid(9c2c392c52c2b334f8273f52948aaf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_star/Material.003.mat using Guid(9c2c392c52c2b334f8273f52948aaf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccc3248357f5003e2bd0292445811c5') in 0.045423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.043340 seconds.
-  path: Assets/3D/FujitoWork/02_model(mesh)/mob3.fbx
-  artifactKey: Guid(80c42f08e2c5db444a523a1b111146bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/02_model(mesh)/mob3.fbx using Guid(80c42f08e2c5db444a523a1b111146bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b33b9a424e043698f4f340eb2842d6') in 0.051967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.216924 seconds.
-  path: Assets/3D/FujitoWork/08_other/bite/104795-Test.bytes
-  artifactKey: Guid(8e2e46b38e9ebea4bb94b701e5019c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/08_other/bite/104795-Test.bytes using Guid(8e2e46b38e9ebea4bb94b701e5019c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c13783237f68a8d00daca0f21fbdbdb') in 0.014849 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.039642 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob3/Material.006.mat
-  artifactKey: Guid(146fe8ad7a9dc504ea1a16c73c65377b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob3/Material.006.mat using Guid(146fe8ad7a9dc504ea1a16c73c65377b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce1ea47fa3daf47a688a736f30f1d37') in 0.010835 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.135521 seconds.
+  Time since last request: 975.298730 seconds.
   path: Assets/3D/FujitoWork/02_model(mesh)/mob1.fbx
   artifactKey: Guid(9335ba5775598904ca83ffc87a255a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/02_model(mesh)/mob1.fbx using Guid(9335ba5775598904ca83ffc87a255a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917387599161d6a55132557502bbefd3') in 0.045367 seconds
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob1.fbx using Guid(9335ba5775598904ca83ffc87a255a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c7ee9a6e769dfbaf9cfc081aa3d3c7') in 0.116588 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 40
 ========================================================================
 Received Import Request.
-  Time since last request: 0.044174 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob6/Material.016.mat
-  artifactKey: Guid(af4543f45ef62b04b8d04d4d979b020c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob6/Material.016.mat using Guid(af4543f45ef62b04b8d04d4d979b020c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54de3c68601032cd43e7ac9a7674fc1c') in 0.009828 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.274498 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob2/Material.003.mat
-  artifactKey: Guid(f560c1d9080c83147a364392fb40d2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob2/Material.003.mat using Guid(f560c1d9080c83147a364392fb40d2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481bb93840ce8c15ec59a95ae15b437c') in 0.010492 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.045173 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob3/Material.mat
-  artifactKey: Guid(a4ecbb909ec0be94ca50dde0c126f382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob3/Material.mat using Guid(a4ecbb909ec0be94ca50dde0c126f382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dea67a486c32e2309f1eaafe0386af3') in 0.009546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.175206 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob4/Material.002.mat
-  artifactKey: Guid(0a14ab96d48bf694baa7d7574c575076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob4/Material.002.mat using Guid(0a14ab96d48bf694baa7d7574c575076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10507a0d0c5720d907c48a76cdb3fbe') in 0.011581 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.324131 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob3/Material.007.mat
-  artifactKey: Guid(e30fd484693408742b98955cff3bb6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob3/Material.007.mat using Guid(e30fd484693408742b98955cff3bb6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f23482b75d89c37fa8edb641e4c287') in 0.010613 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.045973 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob6/Material.006.mat
-  artifactKey: Guid(05d20b5450091884a97dcf5a2bf92498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob6/Material.006.mat using Guid(05d20b5450091884a97dcf5a2bf92498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cba9caf903f7a6901f45be34545d32b') in 0.010316 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.051894 seconds.
-  path: Assets/ParticleDistortTexture/Prefabs/Effect_Circular_02.prefab
-  artifactKey: Guid(945997c2720cc294ca68a6f14bfcc9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParticleDistortTexture/Prefabs/Effect_Circular_02.prefab using Guid(945997c2720cc294ca68a6f14bfcc9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1caf10e2b82e70b0dc5215eed6f747b') in 0.015674 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.089189 seconds.
-  path: Assets/3D/FujitoWork/01_Prefab/64284ec6-1925-45b6-a8aa-538681c3177e.prefab
-  artifactKey: Guid(9c0541fcf4084d84996f6782c7ad1404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/01_Prefab/64284ec6-1925-45b6-a8aa-538681c3177e.prefab using Guid(9c0541fcf4084d84996f6782c7ad1404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35da3d7de6c99ab1e117c905c4446cfd') in 0.041273 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1164
-========================================================================
-Received Import Request.
-  Time since last request: 0.037474 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob1/Material.003.mat
-  artifactKey: Guid(d09b3428ec729894689e274b68bee11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob1/Material.003.mat using Guid(d09b3428ec729894689e274b68bee11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4668a4468156c0c3e7ef93867a7e58') in 0.010031 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.223449 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob6/Material.001.mat
-  artifactKey: Guid(946e4b54901cc0f4fa4a9dde91b780d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob6/Material.001.mat using Guid(946e4b54901cc0f4fa4a9dde91b780d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c36f9a3d4b3aaa2fa45bee3503a96b6') in 0.010035 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.331148 seconds.
-  path: Assets/3D/FujitoWork/Toon/Shader/UCTS_ShadowCaster.cginc
-  artifactKey: Guid(ae8d06deb98501947846000ba6cd3ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/Toon/Shader/UCTS_ShadowCaster.cginc using Guid(ae8d06deb98501947846000ba6cd3ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf9cdaa98c73fa482bedc50be262533') in 0.004599 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.138199 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob6/Material.004.mat
-  artifactKey: Guid(b26741d1234e3bc43822d6f7727c6c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob6/Material.004.mat using Guid(b26741d1234e3bc43822d6f7727c6c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fd5612868e94907ac95d1e7352ff0f') in 0.013904 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.088072 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob2/Material.001.mat
-  artifactKey: Guid(c68ffc1bd1023b94288e075244b98be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob2/Material.001.mat using Guid(c68ffc1bd1023b94288e075244b98be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31dc3a42a5678969cf60e612c7a4a4ec') in 0.013255 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.043097 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_star/Material.001.mat
-  artifactKey: Guid(03deb1a66b4860b45a3120fecf7ea076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_star/Material.001.mat using Guid(03deb1a66b4860b45a3120fecf7ea076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9acccb251b09c3b82ff380c244395d') in 0.011178 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.193016 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob4/Material.003.mat
-  artifactKey: Guid(f3358dd0b7751b4489519e0c0d46bf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob4/Material.003.mat using Guid(f3358dd0b7751b4489519e0c0d46bf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23db3e5ae11bc88217c25213584b884') in 0.010457 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.045370 seconds.
-  path: Assets/3D/FujitoWork/Toon/Shader/UCTS_Outline.cginc
-  artifactKey: Guid(ec7b5c1d006f6be49b412bcd7a789c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/Toon/Shader/UCTS_Outline.cginc using Guid(ec7b5c1d006f6be49b412bcd7a789c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69328900cb54a95a884b3069b408839') in 0.008246 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.151285 seconds.
-  path: Assets/3D/FujitoWork/Toon/Shader/UCTS_DoubleShadeWithFeather.cginc
-  artifactKey: Guid(80bd7ce6cad775a4e9de24e18eb5e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/Toon/Shader/UCTS_DoubleShadeWithFeather.cginc using Guid(80bd7ce6cad775a4e9de24e18eb5e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa802d2983772efd8a9b9cdb8d12a416') in 0.005985 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.125703 seconds.
-  path: Assets/ParticleDistortTexture/Materials/mtl_Circular_02.mat
-  artifactKey: Guid(f798e95604f73fe40a2b4b874927ccb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParticleDistortTexture/Materials/mtl_Circular_02.mat using Guid(f798e95604f73fe40a2b4b874927ccb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087c53aa4cc96d08ee1546b052bedc49') in 0.014178 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.710124 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob1/Material.004.mat
-  artifactKey: Guid(ec213ff9dbf2c154c91851049d1e4406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob1/Material.004.mat using Guid(ec213ff9dbf2c154c91851049d1e4406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd0f52cf5b50d34eed22388504bf5cf') in 0.009947 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.143572 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob4/Material.004.mat
-  artifactKey: Guid(b5a52c40cab3e7c409e3a7b7c785def1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob4/Material.004.mat using Guid(b5a52c40cab3e7c409e3a7b7c785def1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e50a2adeaa336b79531ff822132c7b') in 0.009513 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.287443 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob6/Material.017.mat
-  artifactKey: Guid(c85bc23d195332b4abd994e0d29fdfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob6/Material.017.mat using Guid(c85bc23d195332b4abd994e0d29fdfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a682243d37fe4dbc4706275b2ed54f') in 0.009717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.085188 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob2/Material.mat
-  artifactKey: Guid(f456f92546cae744ebca088673012fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob2/Material.mat using Guid(f456f92546cae744ebca088673012fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc77cf819c0ab883fb50d6fa8ecf382') in 0.011710 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.137939 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob3/Material.005.mat
-  artifactKey: Guid(5b9d7e6095a5ac6428d08e1aa75e9a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob3/Material.005.mat using Guid(5b9d7e6095a5ac6428d08e1aa75e9a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de59fe4985fee966da020186d45f26af') in 0.010487 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.043828 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob4/Material.001.mat
-  artifactKey: Guid(f398ac293d6310240979a8bd06eb2b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob4/Material.001.mat using Guid(f398ac293d6310240979a8bd06eb2b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7099a6c8e05e06206008049e2d1255c6') in 0.010039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.418463 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob7/Material.001.mat
-  artifactKey: Guid(6df2223a647096c4ab21cd983dd2a758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob7/Material.001.mat using Guid(6df2223a647096c4ab21cd983dd2a758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d393849ab81ea781aa2c6027164ced8') in 0.010080 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.086186 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob6/Material.019.mat
-  artifactKey: Guid(a82fe46194dd33b41b571f406d877f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob6/Material.019.mat using Guid(a82fe46194dd33b41b571f406d877f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1a4299b552458aa32edf743b5dc241') in 0.011898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.091036 seconds.
-  path: Assets/3D/FujitoWork/02_model(mesh)/mob7.fbx
-  artifactKey: Guid(f94d7efa017736b4fa8f48091447c5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/02_model(mesh)/mob7.fbx using Guid(f94d7efa017736b4fa8f48091447c5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2c021ec1651cd326fe904795838741') in 0.028435 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.262810 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob1/Material.006.mat
-  artifactKey: Guid(c7f2fc014a401db4a9bf52aa4f034b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob1/Material.006.mat using Guid(c7f2fc014a401db4a9bf52aa4f034b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cb28789560cd73e2ed75ba40365b7f') in 0.011412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.092445 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob4/Material.012.mat
-  artifactKey: Guid(0db90b8c39be1e94783f8923755bc9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob4/Material.012.mat using Guid(0db90b8c39be1e94783f8923755bc9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8283e5711748e740884f495046a56a1') in 0.011895 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.178898 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob4/Material.011.mat
-  artifactKey: Guid(72c8ab3d92718064e879171e50ed1e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob4/Material.011.mat using Guid(72c8ab3d92718064e879171e50ed1e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa98a7fb68db430c552e27066010490') in 0.010047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.045134 seconds.
-  path: Assets/3D/FujitoWork/02_model(mesh)/mob6.fbx
-  artifactKey: Guid(32b7950243fde6b44bebbc84f1dcc0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/02_model(mesh)/mob6.fbx using Guid(32b7950243fde6b44bebbc84f1dcc0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8b1f127692e364e675250cf0757696') in 0.039846 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.043227 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_star/Material.025.mat
-  artifactKey: Guid(1277687653cb1024a970d09a98397eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_star/Material.025.mat using Guid(1277687653cb1024a970d09a98397eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe42e3eaf2bb6362613ce6044bad530') in 0.010491 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.184735 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob6/Material.015.mat
-  artifactKey: Guid(991719203a6d4fe4d98d6a6aab88b8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob6/Material.015.mat using Guid(991719203a6d4fe4d98d6a6aab88b8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147158a84b37e0066771225458642386') in 0.011565 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.042068 seconds.
-  path: Assets/3D/FujitoWork/02_model(mesh)/star.fbx
-  artifactKey: Guid(3db222d0c3258b9439759c658d72768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/02_model(mesh)/star.fbx using Guid(3db222d0c3258b9439759c658d72768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b0f2705eb7d338889c2fefc1ee1733') in 0.023582 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.042561 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob3/Material.008.mat
-  artifactKey: Guid(3fa4904251e93f540b6dce57b04fff39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob3/Material.008.mat using Guid(3fa4904251e93f540b6dce57b04fff39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7d658fcce785b29e61b0fae058e0b0') in 0.010990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.044456 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob1/Material.002.mat
-  artifactKey: Guid(919ad4be8e2843d4688204621827bd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob1/Material.002.mat using Guid(919ad4be8e2843d4688204621827bd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc3e4fcb36f4bda1192cbc7ff17eb48') in 0.010502 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.046068 seconds.
-  path: Assets/3D/FujitoWork/02_model(mesh)/mob2.fbx
-  artifactKey: Guid(0a6f10e6be18cd84a9b27a2f528be826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/02_model(mesh)/mob2.fbx using Guid(0a6f10e6be18cd84a9b27a2f528be826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f85d17f3749fb133636386f53f3924') in 0.034502 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.046068 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_star/Material.027.mat
-  artifactKey: Guid(1b28a8a59ff3b5c4cb61d252f8abf91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_star/Material.027.mat using Guid(1b28a8a59ff3b5c4cb61d252f8abf91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e5f340f075ff48e7e59f17ac725c51') in 0.011292 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.279830 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob6/Material.002.mat
-  artifactKey: Guid(f921ba7b081db50499183d2ed9e329f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob6/Material.002.mat using Guid(f921ba7b081db50499183d2ed9e329f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb558627f6e21c099f31b8243cf208d') in 0.010115 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.140052 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob4/Material.005.mat
-  artifactKey: Guid(a07ee6cd386a7294490964f181ba7cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob4/Material.005.mat using Guid(a07ee6cd386a7294490964f181ba7cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7319d028dc2f819f83f9536526109d27') in 0.009564 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.050217 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_star/Material.002.mat
-  artifactKey: Guid(1b5f026e317b5ee40a37530cac15c923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_star/Material.002.mat using Guid(1b5f026e317b5ee40a37530cac15c923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4a85b38ca76ec0bf6ea70001437520') in 0.009731 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.086946 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob3/Material.002.mat
-  artifactKey: Guid(25d0b5ab4b4fc1c49a8b7959d629eb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob3/Material.002.mat using Guid(25d0b5ab4b4fc1c49a8b7959d629eb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b53dafb70ef97089a54d74b0412a1e') in 0.011624 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.043640 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob1/Material.001.mat
-  artifactKey: Guid(40408c22aa6a45343b74b4e94debade5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob1/Material.001.mat using Guid(40408c22aa6a45343b74b4e94debade5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1b81aa4918e994bd3516d377a4f097') in 0.010357 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.085794 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob3/Material.001.mat
-  artifactKey: Guid(d5cda1e334ebe7440b1dab701132e18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob3/Material.001.mat using Guid(d5cda1e334ebe7440b1dab701132e18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f44ba480f462fb914f8ab4a522aba2') in 0.011708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.091477 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob4/Material.014.mat
-  artifactKey: Guid(dacd2aa2cac5f9f469fe2eabf53269a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob4/Material.014.mat using Guid(dacd2aa2cac5f9f469fe2eabf53269a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509d7eda4994a2f5fff55cf3d061ddd7') in 0.009442 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.046724 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob1/Material.005.mat
-  artifactKey: Guid(7ecac7949a786c847b8e466cbbc0bf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob1/Material.005.mat using Guid(7ecac7949a786c847b8e466cbbc0bf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99293fcff64bd878a08249d4d02d93e') in 0.009847 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.135432 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob6/Material.003.mat
-  artifactKey: Guid(66181fbb8aa1a3a4189ac38c7e62d86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob6/Material.003.mat using Guid(66181fbb8aa1a3a4189ac38c7e62d86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7684ada4ad737818eb9de9ddc75ae9') in 0.017079 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.046761 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob4/Material.009.mat
-  artifactKey: Guid(2b9653f9da3a2c24cb0549e65dc5d072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob4/Material.009.mat using Guid(2b9653f9da3a2c24cb0549e65dc5d072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5135713e1da145a41b65671b9b56e081') in 0.010959 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.041593 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob7/Material.003.mat
-  artifactKey: Guid(cb69cadf11b2374408aa927c4895ba07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob7/Material.003.mat using Guid(cb69cadf11b2374408aa927c4895ba07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f311b0d8c353176562c0c32a9d05d31c') in 0.009358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.042202 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_star/Material.026.mat
-  artifactKey: Guid(7a1c69fd88c42684ba72ce251a8e70fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_star/Material.026.mat using Guid(7a1c69fd88c42684ba72ce251a8e70fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b27de5f8879d7943f6b979421fd8fa5') in 0.008605 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.041742 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob2/Material.002.mat
-  artifactKey: Guid(e7fb7fc9c5ec81345ae2fa50190c5392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob2/Material.002.mat using Guid(e7fb7fc9c5ec81345ae2fa50190c5392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121082d9e56970674e9793635c39755b') in 0.009933 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.046250 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob7/Material.022.mat
-  artifactKey: Guid(fff51a51d383e524f8452983919cdb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob7/Material.022.mat using Guid(fff51a51d383e524f8452983919cdb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d29eb7d26fcf370481f4ab738404e3') in 0.011026 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.211803 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob3/Material.003.mat
-  artifactKey: Guid(2162b36d53c1389438b690b4586a0bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob3/Material.003.mat using Guid(2162b36d53c1389438b690b4586a0bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932418c0e64b683ab4e774f8c4ecbb68') in 0.010333 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.042035 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob6/Material.005.mat
-  artifactKey: Guid(c85d7638b982fe44883c90a9d04e38f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob6/Material.005.mat using Guid(c85d7638b982fe44883c90a9d04e38f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95d8aab686854d64d8c08b7b89a392c') in 0.010045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.148769 seconds.
-  path: Assets/3D/FujitoWork/02_model(mesh)/mob4.fbx
-  artifactKey: Guid(3782a213a34ea2c4294eff1c799593e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/02_model(mesh)/mob4.fbx using Guid(3782a213a34ea2c4294eff1c799593e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b150822afda5e5169b24993a4b57a5cd') in 0.039897 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.101977 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob7/Material.021.mat
-  artifactKey: Guid(8a743c51249273a40870ab1ff70780ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob7/Material.021.mat using Guid(8a743c51249273a40870ab1ff70780ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0919eb661770dcbc638b4b46a4338d3') in 0.009948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.139852 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob2/Material.004.mat
-  artifactKey: Guid(fd24c76d14d47ff44a50e92d7a67e403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob2/Material.004.mat using Guid(fd24c76d14d47ff44a50e92d7a67e403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c69a7c148dc8156cf0ccb818053446a') in 0.010120 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.045514 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob7/Material.024.mat
-  artifactKey: Guid(a8bad3277fbb91d40833a28c9500bdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob7/Material.024.mat using Guid(a8bad3277fbb91d40833a28c9500bdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1729c22e6ad94f41eb8bd33f787771e7') in 0.009871 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.132048 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob7/Material.023.mat
-  artifactKey: Guid(c51509c45d15247409ecee6ddf5875e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob7/Material.023.mat using Guid(c51509c45d15247409ecee6ddf5875e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b030761bd31f924dbadca527ec38d8') in 0.010442 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.085628 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob4/Material.013.mat
-  artifactKey: Guid(d4198414a9f956943835f08a3b835720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob4/Material.013.mat using Guid(d4198414a9f956943835f08a3b835720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fd18ed9cfb0b3f9fc85cbf3f730af4') in 0.010009 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.043812 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob6/Material.020.mat
-  artifactKey: Guid(890b61ea2ec89bc40a1c9c137a43391b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob6/Material.020.mat using Guid(890b61ea2ec89bc40a1c9c137a43391b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671f2acf50134fe78031bf8b20bc11a3') in 0.009889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.463509 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob4/Material.010.mat
-  artifactKey: Guid(2b7289555f9188849b8d07b0a4cae4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob4/Material.010.mat using Guid(2b7289555f9188849b8d07b0a4cae4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e47fab360178a989f67e0f09f4beb93') in 0.010458 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.042431 seconds.
-  path: Assets/3D/FujitoWork/Toon/Shader/Toon_DoubleShadeWithFeather.shader
-  artifactKey: Guid(9baf30ce95c751649b14d96da3a4b4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/Toon/Shader/Toon_DoubleShadeWithFeather.shader using Guid(9baf30ce95c751649b14d96da3a4b4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0558aaf6ddc20a2f09af8c75e1a6ac83') in 0.000485 seconds
+  Time since last request: 68.909467 seconds.
+  path: Assets/Scenes/SampleScene2.unity
+  artifactKey: Guid(2dd30311c11de1a4fa13de3afbe06494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene2.unity using Guid(2dd30311c11de1a4fa13de3afbe06494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a07027b3d8ee294d18d74f0e045d7a7') in 0.000431 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.116542 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob7/Material.004.mat
-  artifactKey: Guid(a892c16e34ae9d5408604d4c283cc264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob7/Material.004.mat using Guid(a892c16e34ae9d5408604d4c283cc264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ce870cef4849b6d18f23d8ea833d96') in 0.011580 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+  Time since last request: 5.779560 seconds.
+  path: Assets/Scenes/SampleScene2.unity
+  artifactKey: Guid(2dd30311c11de1a4fa13de3afbe06494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene2.unity using Guid(2dd30311c11de1a4fa13de3afbe06494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa9be6246cabda58a8aef14fb94a42b') in 0.000323 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.222077 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob4/Material.006.mat
-  artifactKey: Guid(65732c445074bbe41aaa824a72735c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob4/Material.006.mat using Guid(65732c445074bbe41aaa824a72735c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c8f01621c3016bd2d838b4ef321fd8') in 0.009634 seconds
+  Time since last request: 19.380078 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/uploads_files_4263334_balloons.fbx
+  artifactKey: Guid(1a768112f9c993340b148ff0a47094f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/uploads_files_4263334_balloons.fbx using Guid(1a768112f9c993340b148ff0a47094f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c22ed25d05da16d026b29455a60895b') in 0.187902 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 132
 ========================================================================
 Received Import Request.
-  Time since last request: 0.042322 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob6/Material.018.mat
-  artifactKey: Guid(c6ff4a6886c9e134dae992380d0e5cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob6/Material.018.mat using Guid(c6ff4a6886c9e134dae992380d0e5cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a34f49235f770a4a969a8ed3916789') in 0.010525 seconds
+  Time since last request: 0.715693 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/star.fbx
+  artifactKey: Guid(3db222d0c3258b9439759c658d72768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/star.fbx using Guid(3db222d0c3258b9439759c658d72768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa6cf8bddb3f88a64650e86202eff09') in 0.039889 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 22
 ========================================================================
 Received Import Request.
-  Time since last request: 0.087868 seconds.
-  path: Assets/3D/FujitoWork/04_material/M_mob7/Material.002.mat
-  artifactKey: Guid(f7a9cf8f1b86a7d4e86769b7fd048bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/04_material/M_mob7/Material.002.mat using Guid(f7a9cf8f1b86a7d4e86769b7fd048bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82fa554cd1d57f854b6cfc9b629eed7') in 0.009450 seconds
+  Time since last request: 2.459655 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob6.fbx
+  artifactKey: Guid(32b7950243fde6b44bebbc84f1dcc0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob6.fbx using Guid(32b7950243fde6b44bebbc84f1dcc0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982959a548c3e9b4ab6b1956abe90ec8') in 0.056611 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 3.12 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.9 KB). Loaded Objects now: 3576.
-Memory consumption went from 88.9 MB to 88.9 MB.
-Total: 2.084000 ms (FindLiveObjects: 0.174500 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.851300 ms  DeleteObjects: 0.015400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.55 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.1 MB to 89.1 MB.
-Total: 1.891900 ms (FindLiveObjects: 0.158800 ms CreateObjectMapping: 0.048600 ms MarkObjects: 1.669900 ms  DeleteObjects: 0.014100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.92 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.1 MB to 89.1 MB.
-Total: 2.103800 ms (FindLiveObjects: 0.170100 ms CreateObjectMapping: 0.044800 ms MarkObjects: 1.874000 ms  DeleteObjects: 0.014200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 4.81 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.1 MB to 89.1 MB.
-Total: 1.961000 ms (FindLiveObjects: 0.159500 ms CreateObjectMapping: 0.048400 ms MarkObjects: 1.740500 ms  DeleteObjects: 0.012000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 6.18 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.1 MB to 89.1 MB.
-Total: 2.110600 ms (FindLiveObjects: 0.161100 ms CreateObjectMapping: 0.046700 ms MarkObjects: 1.885900 ms  DeleteObjects: 0.016300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 4.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.1 MB to 89.1 MB.
-Total: 2.350000 ms (FindLiveObjects: 0.184800 ms CreateObjectMapping: 0.058200 ms MarkObjects: 2.088200 ms  DeleteObjects: 0.012900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 4.12 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.1 MB to 89.1 MB.
-Total: 2.414900 ms (FindLiveObjects: 0.345300 ms CreateObjectMapping: 0.072600 ms MarkObjects: 1.977400 ms  DeleteObjects: 0.018800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 3.67 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.1 MB to 89.1 MB.
-Total: 2.618000 ms (FindLiveObjects: 0.185400 ms CreateObjectMapping: 0.059500 ms MarkObjects: 2.354600 ms  DeleteObjects: 0.016600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.1 MB to 89.1 MB.
-Total: 2.372100 ms (FindLiveObjects: 0.176500 ms CreateObjectMapping: 0.052500 ms MarkObjects: 2.127200 ms  DeleteObjects: 0.015200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 3.54 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.7 MB to 89.7 MB.
-Total: 2.413300 ms (FindLiveObjects: 0.193500 ms CreateObjectMapping: 0.053800 ms MarkObjects: 2.131400 ms  DeleteObjects: 0.033400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.66 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.7 MB to 89.7 MB.
-Total: 2.201900 ms (FindLiveObjects: 0.285300 ms CreateObjectMapping: 0.077400 ms MarkObjects: 1.822900 ms  DeleteObjects: 0.015100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.86 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.7 MB to 89.7 MB.
-Total: 1.955600 ms (FindLiveObjects: 0.154600 ms CreateObjectMapping: 0.039700 ms MarkObjects: 1.746700 ms  DeleteObjects: 0.013500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 3.27 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.7 MB to 89.7 MB.
-Total: 1.877100 ms (FindLiveObjects: 0.180900 ms CreateObjectMapping: 0.042300 ms MarkObjects: 1.639600 ms  DeleteObjects: 0.013700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.42 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.7 MB to 89.7 MB.
-Total: 1.872000 ms (FindLiveObjects: 0.161200 ms CreateObjectMapping: 0.040100 ms MarkObjects: 1.655200 ms  DeleteObjects: 0.014800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 3.57 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.7 MB to 89.7 MB.
-Total: 1.862800 ms (FindLiveObjects: 0.165500 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.638600 ms  DeleteObjects: 0.015600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.7 MB to 89.7 MB.
-Total: 1.873400 ms (FindLiveObjects: 0.158000 ms CreateObjectMapping: 0.039900 ms MarkObjects: 1.659700 ms  DeleteObjects: 0.015200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.7 MB to 89.7 MB.
-Total: 1.892800 ms (FindLiveObjects: 0.164500 ms CreateObjectMapping: 0.052500 ms MarkObjects: 1.661700 ms  DeleteObjects: 0.013600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 40
 ========================================================================
 Received Import Request.
-  Time since last request: 204.389177 seconds.
-  path: Assets/3D/FujitoWork/01_Prefab/Immersal_timemachine Variant.prefab
-  artifactKey: Guid(9c0541fcf4084d84996f6782c7ad1404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/01_Prefab/Immersal_timemachine Variant.prefab using Guid(9c0541fcf4084d84996f6782c7ad1404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7a1ac3b1967f9e27c5841e5006f4d2') in 0.069748 seconds
+  Time since last request: 24.472043 seconds.
+  path: Assets/3D/FujitoWork/02_model(mesh)/mob1.fbx
+  artifactKey: Guid(9335ba5775598904ca83ffc87a255a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/02_model(mesh)/mob1.fbx using Guid(9335ba5775598904ca83ffc87a255a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c09a3885500dd0e9ad107566b334e77') in 0.169766 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1164
+Number of asset objects unloaded after import = 40
 ========================================================================
 Received Import Request.
-  Time since last request: 361.674025 seconds.
-  path: Assets/3D/FujitoWork/01_Prefab/Immersal_timemachine Variant.prefab
-  artifactKey: Guid(9c0541fcf4084d84996f6782c7ad1404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/01_Prefab/Immersal_timemachine Variant.prefab using Guid(9c0541fcf4084d84996f6782c7ad1404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bed3b47f041a4cebe782dabd7bdb7c5') in 0.048778 seconds
+  Time since last request: 477.432447 seconds.
+  path: Assets/3D/FujitoWork/08_other/immersal_Ota
+  artifactKey: Guid(453c491acb438ee4eaf850166e758d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/08_other/immersal_Ota using Guid(453c491acb438ee4eaf850166e758d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925e9e9ad815bf140bc208f3454a218a') in 0.000677 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1164
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 8.581361 seconds.
-  path: Assets/3D/FujitoWork/01_Prefab/154b5688-d54d-473d-a834-d6ba2fa81d48.prefab
-  artifactKey: Guid(9c0541fcf4084d84996f6782c7ad1404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/01_Prefab/154b5688-d54d-473d-a834-d6ba2fa81d48.prefab using Guid(9c0541fcf4084d84996f6782c7ad1404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c9062c163c0e2ee34dad2ae3c19473') in 0.037790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1164
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 3.74 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.9 KB). Loaded Objects now: 3576.
-Memory consumption went from 88.8 MB to 88.8 MB.
-Total: 3.104100 ms (FindLiveObjects: 0.186400 ms CreateObjectMapping: 0.048100 ms MarkObjects: 2.851300 ms  DeleteObjects: 0.017400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.1 MB to 89.1 MB.
-Total: 1.849700 ms (FindLiveObjects: 0.159600 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.635200 ms  DeleteObjects: 0.012600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.1 MB to 89.1 MB.
-Total: 2.273000 ms (FindLiveObjects: 0.178800 ms CreateObjectMapping: 0.064100 ms MarkObjects: 2.012100 ms  DeleteObjects: 0.017200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.95 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.1 MB to 89.1 MB.
-Total: 2.097900 ms (FindLiveObjects: 0.225600 ms CreateObjectMapping: 0.075200 ms MarkObjects: 1.778700 ms  DeleteObjects: 0.017700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 19.32 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.1 MB to 89.1 MB.
-Total: 2.373500 ms (FindLiveObjects: 0.278100 ms CreateObjectMapping: 0.084100 ms MarkObjects: 1.996100 ms  DeleteObjects: 0.014700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 3.22 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.1 MB to 89.1 MB.
-Total: 2.169700 ms (FindLiveObjects: 0.206800 ms CreateObjectMapping: 0.181400 ms MarkObjects: 1.766800 ms  DeleteObjects: 0.014000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 3.70 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.1 MB to 89.1 MB.
-Total: 2.101300 ms (FindLiveObjects: 0.158000 ms CreateObjectMapping: 0.051800 ms MarkObjects: 1.871500 ms  DeleteObjects: 0.019300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.90 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.1 MB to 89.1 MB.
-Total: 1.898500 ms (FindLiveObjects: 0.160800 ms CreateObjectMapping: 0.052000 ms MarkObjects: 1.671200 ms  DeleteObjects: 0.014200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.37 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.6 MB to 89.6 MB.
-Total: 1.958500 ms (FindLiveObjects: 0.166300 ms CreateObjectMapping: 0.042000 ms MarkObjects: 1.735200 ms  DeleteObjects: 0.014500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.60 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.6 MB to 89.6 MB.
-Total: 1.865500 ms (FindLiveObjects: 0.158000 ms CreateObjectMapping: 0.040600 ms MarkObjects: 1.652200 ms  DeleteObjects: 0.013900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.6 MB to 89.6 MB.
-Total: 1.831400 ms (FindLiveObjects: 0.152100 ms CreateObjectMapping: 0.039000 ms MarkObjects: 1.626600 ms  DeleteObjects: 0.013000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.84 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.6 MB to 89.6 MB.
-Total: 1.824000 ms (FindLiveObjects: 0.160300 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.610200 ms  DeleteObjects: 0.012900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.6 MB to 89.6 MB.
-Total: 2.043200 ms (FindLiveObjects: 0.161200 ms CreateObjectMapping: 0.052500 ms MarkObjects: 1.812600 ms  DeleteObjects: 0.016100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.99 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.6 MB to 89.6 MB.
-Total: 2.016600 ms (FindLiveObjects: 0.166100 ms CreateObjectMapping: 0.044000 ms MarkObjects: 1.788500 ms  DeleteObjects: 0.017000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 3.20 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.6 MB to 89.6 MB.
-Total: 2.600600 ms (FindLiveObjects: 0.230900 ms CreateObjectMapping: 0.124700 ms MarkObjects: 2.223900 ms  DeleteObjects: 0.020400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 4.28 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.6 MB to 89.6 MB.
-Total: 2.316100 ms (FindLiveObjects: 0.190300 ms CreateObjectMapping: 0.049000 ms MarkObjects: 2.058100 ms  DeleteObjects: 0.018000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 412, GUID 3e39586253f31b34f87fa7e133449b1e)
-Shader 'TLG/ShieldShader': fallback shader 'Particles/Additive' not found
-Shader 'TLG/ShieldShader-UI': fallback shader 'Particles/Additive' not found
-Refreshing native plugins compatible for Editor in 2.81 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3576.
-Memory consumption went from 89.6 MB to 89.6 MB.
-Total: 2.224000 ms (FindLiveObjects: 0.182800 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.979300 ms  DeleteObjects: 0.015600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 97.657217 seconds.
-  path: Assets/3D/FujitoWork/01_Prefab/Immersal_timemachine Variant.prefab
-  artifactKey: Guid(9c0541fcf4084d84996f6782c7ad1404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/01_Prefab/Immersal_timemachine Variant.prefab using Guid(9c0541fcf4084d84996f6782c7ad1404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd9821017a8145d8147ab1932595d6a') in 0.059720 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1164
-========================================================================
-Received Import Request.
-  Time since last request: 588.489173 seconds.
-  path: Assets/3D/FujitoWork/08_other/prefabs/104795-Test-tex.Meshes
-  artifactKey: Guid(74d50dd449824bc4aa0adff421f952d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/FujitoWork/08_other/prefabs/104795-Test-tex.Meshes using Guid(74d50dd449824bc4aa0adff421f952d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15d8e2fc8a50493b1c2578c5251f72b') in 0.000829 seconds
+  Time since last request: 1.391916 seconds.
+  path: Assets/3D/FujitoWork/08_other/immersal_Ota/prefabs
+  artifactKey: Guid(cc3425f5d8ecabc46ad5c07bd5c4a39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/FujitoWork/08_other/immersal_Ota/prefabs using Guid(cc3425f5d8ecabc46ad5c07bd5c4a39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffa43db1d003bdfe0e04a97970d3270') in 0.000338 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
