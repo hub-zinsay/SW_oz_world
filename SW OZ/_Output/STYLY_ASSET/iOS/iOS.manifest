@@ -1,7 +1,15 @@
 ManifestFileVersion: 0
+<<<<<<< HEAD
+CRC: 196744676
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: e9fa742f-ba41-40e3-8e14-a12bb211c4ef
+=======
 CRC: 3585489304
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: f6eabe42-70fc-4dc7-bdb1-676b0c9fe413
+>>>>>>> 51a20858a4f3b7ec085ad9c45d43ee5904865fba
       Dependencies: {}
